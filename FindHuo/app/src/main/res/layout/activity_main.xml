@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              tools:context="com.jinyuankeji.yxm.findhuo.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_replace_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"></LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn_lottery"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_lottery"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="彩票"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_findwork"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_findwork"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="找活"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_declare"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_declare"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="发布"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_my"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/tab_my"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="我的"/>
+    </RadioGroup>
+</LinearLayout>

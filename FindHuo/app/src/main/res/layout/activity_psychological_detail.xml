@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rv_psychological_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorTitle">
+
+        <ImageView
+            android:id="@+id/iv_psychological_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/back_arrow_3x"/>
+
+        <TextView
+            android:id="@+id/tv_psychological_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:text="详情"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_psychological_head"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/rv_psychological_detail_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <TextView
+        android:id="@+id/tv_psychological_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_psychological_detail_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/iv_psychological_head"
+        android:text="孙某"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_psychological_detail_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_psychological_detail_name"
+        android:layout_below="@id/tv_psychological_detail_name"
+        android:layout_marginTop="14dp"
+        android:text="性别"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_psychological_detail_sex"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_psychological_detail_sex"
+        android:text="|"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_psychological_detail_sex"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_psychological_line"
+        android:text="年龄"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_psychological_detail_sex"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_psychological_age"
+        android:text="|"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_exprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_psychological_detail_sex"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_psychological_line2"
+        android:text="经验"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_contact_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_psychological_detail_name"
+        android:layout_below="@id/tv_psychological_age"
+        android:layout_marginTop="14dp"
+        android:text="联系方式："
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_psychological_detail_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_psychological_age"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/tv_psychological_contact_tv"
+        android:text="1000元"
+        android:textColor="@color/colorGray"
+        android:textSize="15sp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_psychological_detail_line"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_below="@id/iv_psychological_head"
+        android:layout_marginTop="20dp"
+        android:background="#eeeeee"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:id="@+id/iv_psychological_detail_authen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_psychological_detail_line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:src="@mipmap/selected_paypsy3x"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_detail_authen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_psychological_detail_authen"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/iv_psychological_detail_authen"
+        android:text="已认证"
+        android:textColor="@color/colorGray"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_psychological_zizhi_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_psychological_detail_authen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="资质："
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_psychological_zizhi_tv"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/tv_psychological_zizhi_tv"
+        android:text="国家二级心理咨询师"
+        android:textColor="@color/colorGray"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_psychological_range_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_psychological_zizhi_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="擅长处理心理问题:"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_psychological_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_psychological_range_tv"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_psychological_range_tv"
+        android:text="大东区国家"
+        android:textColor="@color/colorGray"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>

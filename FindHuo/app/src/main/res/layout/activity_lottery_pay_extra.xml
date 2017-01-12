@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rv_lottery_pay_extra_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:background="@color/colorTitle">
+
+        <ImageView
+            android:id="@+id/lottery_pay_extra_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/back_arrow_3x"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:text="余额支付"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/rv_lottery_pay_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_lottery_pay_extra_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="请使用余额支付，余额不足请充值！"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_lottery_pay_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/iv_lottery_pay_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pay_icon3x"/>
+
+        <TextView
+            android:id="@+id/tcv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/iv_lottery_pay_tv"
+            android:text="余额支付："
+            android:textColor="#757575"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/tcv"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/selected_pay3x"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_lottery_pay_extra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="32dp"
+        android:background="@mipmap/btn_pay_selected3x"
+        android:text="确   定"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        />
+
+</RelativeLayout>
