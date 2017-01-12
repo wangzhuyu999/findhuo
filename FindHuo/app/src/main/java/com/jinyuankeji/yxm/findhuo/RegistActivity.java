@@ -1,4 +1,4 @@
-package com.jinyuankeji.yxm.findhuo.lottery.ui;
+package com.jinyuankeji.yxm.findhuo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,13 +7,10 @@ import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
-
-import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.base_chat.BaseChatActivity;
 import com.jinyuankeji.yxm.findhuo.base.base_chat.MyConnectionListener;
 
@@ -24,14 +21,14 @@ import butterknife.OnClick;
 
 public class RegistActivity extends BaseChatActivity {
 
-    @InjectView(R.id.tv_title)
-    TextView tvTitle;
-    @InjectView(R.id.et_register_phone)
+//    @InjectView(R.id.tv_title)
+//    TextView tvTitle;
+    @InjectView(R.id.editText3)
     EditText etRegisterPhone;
-    @InjectView(R.id.et_register_pwd)
+    @InjectView(R.id.passwordd)
     EditText etRegisterPwd;
-    @InjectView(R.id.et_register_repwd)
-    EditText etRegisterRepwd;
+//    @InjectView(R.id.et_register_repwd)
+//    EditText etRegisterRepwd;
     private static final int REG_SUCCESS = 1;
     private static final int REG_FAILED = 2;
     Handler mHandler = new Handler() {
@@ -55,28 +52,28 @@ public class RegistActivity extends BaseChatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regist);
         ButterKnife.inject(this);
-        tvTitle.setText("用户注册");
+//        tvTitle.setText("用户注册");
         mActivity=this;
 
         EMClient.getInstance().addConnectionListener(new MyConnectionListener(this));
     }
 
-    @OnClick(R.id.btn_register)
+    @OnClick(R.id.register_re)
     public void onClick() {
         String userPhone = etRegisterPhone.getText().toString().trim();
         String pwd = etRegisterPwd.getText().toString().trim();
-        String rePwd = etRegisterRepwd.getText().toString().trim();
+//        String rePwd = etRegisterRepwd.getText().toString().trim();
         if (TextUtils.isEmpty(userPhone)) {
             Toast.makeText(mActivity, "用户名不能为空", Toast.LENGTH_SHORT).show();
         }
-        if (TextUtils.isEmpty(pwd) || TextUtils.isEmpty(rePwd)) {
+        if (TextUtils.isEmpty(pwd) ) {
             Toast.makeText(mActivity, "密码不能为空", Toast.LENGTH_SHORT).show();
         }
-        if (!pwd.equals(rePwd)) {
-            Toast.makeText(mActivity, "两次密码输入不一致,请重新输入", Toast.LENGTH_SHORT).show();
-            etRegisterRepwd.setText("");
-            etRegisterRepwd.setFocusable(true);
-        }
+//        if (!pwd.equals(rePwd)) {
+//            Toast.makeText(mActivity, "两次密码输入不一致,请重新输入", Toast.LENGTH_SHORT).show();
+//            etRegisterRepwd.setText("");
+//            etRegisterRepwd.setFocusable(true);
+//        }
         regist(userPhone, pwd);
     }
 

@@ -63,7 +63,7 @@
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="3540364eb66be0205a24d39645d21897" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -79,6 +79,8 @@
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_one.FindWorkHotTypeTaxiDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_detail_two.FindWorkHotTypeFindCarDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.psychological.FindWorkHotTypePsychologicalDetailActivity"/>
+
+        <activity android:name=".MainActivity"/>
 
 
         <activity android:name=".declare.FindCarActivity"></activity>
@@ -99,7 +101,7 @@
 
         <service android:name="com.amap.api.location.APSService"/>
 
-
+<activity android:name=".LoginActivity"/>
 
 
         <meta-data
@@ -133,13 +135,6 @@
             android:value="XdNnLD4Q9MYPheUoDGXwLL5u" />
 
 
-        <activity android:name=".lottery.ui.LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            </intent-filter>
-        </activity>
         <activity android:name=".lottery.ui.MainCActivity"
                   android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity
@@ -166,7 +161,8 @@
             android:name="com.hyphenate.easeui.ui.EaseShowVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
-        <activity android:name=".lottery.ui.RegistActivity"></activity>
+
+        <activity android:name=".RegistActivity"/>
     </application>
 
 </manifest>

@@ -10,5 +10,6 @@ public class DataValue {
    public  static String FINDWORK_SELECT_TAG = "找零工";
    public  static String FINDWORK_TYPE_TV = "";
    public  static String FINDHUO_DETAIL_NOR = "";//详情标签标题
+   public  static String FINDHUO_CHAT = "";
 
 }

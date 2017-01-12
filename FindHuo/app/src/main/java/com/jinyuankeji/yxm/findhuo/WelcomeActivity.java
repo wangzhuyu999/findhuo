@@ -20,7 +20,7 @@ public class WelcomeActivity extends Activity{
         image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it  = new Intent(WelcomeActivity.this,ZLoginActivity.class);
+                Intent it  = new Intent(WelcomeActivity.this,LoginActivity.class);
                 startActivity(it);
             }
         });

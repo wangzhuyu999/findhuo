@@ -4,7 +4,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.util.Log;
-import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -15,19 +14,13 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.hyphenate.EMCallBack;
-import com.hyphenate.EMContactListener;
-import com.hyphenate.chat.EMChatManager;
 import com.hyphenate.chat.EMClient;
-import com.hyphenate.chat.EMConversation;
 import com.hyphenate.chat.EMMessage;
 import com.hyphenate.exceptions.HyphenateException;
+import com.jinyuankeji.yxm.findhuo.LoginActivity;
 import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.BaseActivity;
-import com.jinyuankeji.yxm.findhuo.lottery.ui.LoginActivity;
-
-import java.util.Map;
-
-import butterknife.ButterKnife;
+import com.jinyuankeji.yxm.findhuo.tools.DataValue;
 
 
 /**
@@ -131,7 +124,7 @@ public class LotteryDetailActivity extends BaseActivity {
                             Log.e("","添加好友成功,等待回应:" + firendName);
 
                             EMClient.getInstance().chatManager().saveMessage(EMMessage.createTxtSendMessage("已添加",firendName));
-
+                            DataValue.FINDHUO_CHAT = "添加";
                         } catch (HyphenateException e) {
                             e.printStackTrace();
                         }

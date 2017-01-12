@@ -1,4 +1,4 @@
-package com.jinyuankeji.yxm.findhuo.lottery.ui;
+package com.jinyuankeji.yxm.findhuo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,15 +7,16 @@ import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
-
-import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.base_chat.BaseChatActivity;
 import com.jinyuankeji.yxm.findhuo.base.base_chat.GlobalField;
 import com.jinyuankeji.yxm.findhuo.base.base_chat.MyConnectionListener;
+import com.jinyuankeji.yxm.findhuo.lottery.ui.MainCActivity;
+import com.jinyuankeji.yxm.findhuo.tools.DataValue;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -26,10 +27,13 @@ public class LoginActivity extends BaseChatActivity {
     private static final int LOGIN_SUCCESS = 1;
     private static final int LOGIN_FAILED = 2;
 
-    @InjectView(R.id.et_main_userName)
+    @InjectView(R.id.editText3)
     EditText etMainUserName;
-    @InjectView(R.id.et_main_pwd)
+    @InjectView(R.id.editText4)
     EditText etMainPwd;
+
+    //    @InjectView(R.id.register)
+//    Button btn;
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -49,6 +53,7 @@ public class LoginActivity extends BaseChatActivity {
         }
     };
 
+private TextView register;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +62,15 @@ public class LoginActivity extends BaseChatActivity {
         checkIsLogin();
 
         EMClient.getInstance().addConnectionListener(new MyConnectionListener(this));
+
+//        register = (TextView)findViewById(R.id.register);
+//        register.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent it = new Intent(LoginActivity.this,RegistActivity.class);
+//                startActivity(it);
+//            }
+//        });
     }
 
 
@@ -65,7 +79,13 @@ public class LoginActivity extends BaseChatActivity {
 
             EMClient.getInstance().groupManager().loadAllGroups();
             EMClient.getInstance().chatManager().loadAllConversations();
-            startActivity(new Intent(LoginActivity.this, MainCActivity.class));
+            if (DataValue.FINDHUO_CHAT.equals("添加")) {
+
+                startActivity(new Intent(LoginActivity.this, MainCActivity.class));
+            } else {
+
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+            }
             finish();
             Log.e("main", "已经登录过了！");
 
@@ -93,11 +113,22 @@ public class LoginActivity extends BaseChatActivity {
     }
 
 
-    @OnClick(R.id.btn_main_login)
+    @OnClick(R.id.login)
     public void onClick() {
         String userName = "" + etMainUserName.getText().toString().trim();
         String pwd = "" + etMainPwd.getText().toString().trim();
-        login(userName, pwd);
+        if (userName.length()!= 0 && pwd.length() == 0) {
+            Toast.makeText(this, "请输入密码.", Toast.LENGTH_SHORT).show();
+            Log.d("LoginActivity", "请输入密码.");
+        } else if (userName.length() == 0 && pwd.length() != 0) {
+            Toast.makeText(this, "请输入手机号.", Toast.LENGTH_SHORT).show();
+            Log.d("LoginActivity", "请输手机号.");
+        } else if (userName.length() == 0 && pwd.length() == 0) {
+            Toast.makeText(this, "请输入手机号和密码.", Toast.LENGTH_SHORT).show();
+            Log.d("LoginActivity", "请输入手机号和密码");
+        } else {
+            login(userName, pwd);
+        }
     }
 
 
@@ -110,7 +141,7 @@ public class LoginActivity extends BaseChatActivity {
                 EMClient.getInstance().chatManager().loadAllConversations();
 
                 getSharedPreferences(GlobalField.USERINFO_FILENAME, MODE_PRIVATE).edit().putString("username", userName).commit();
-                startActivity(new Intent(LoginActivity.this, MainCActivity.class));
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
                 Log.e("main", "登录聊天服务器成功！");
                 mHandler.sendEmptyMessage(LOGIN_SUCCESS);
                 finish();
@@ -138,4 +169,6 @@ public class LoginActivity extends BaseChatActivity {
         startActivity(new Intent(this, RegistActivity.class));
         finish();
     }
+
+
 }

@@ -10,7 +10,7 @@ import com.hyphenate.EMConnectionListener;
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.util.NetUtils;
-import com.jinyuankeji.yxm.findhuo.lottery.ui.LoginActivity;
+import com.jinyuankeji.yxm.findhuo.LoginActivity;
 
 
 public class MyConnectionListener implements EMConnectionListener {
