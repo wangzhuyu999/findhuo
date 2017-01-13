@@ -24,7 +24,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+=======
+        "outputFile": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+>>>>>>> 2
         "map": [
             {
                 "to": {
@@ -35,6 +39,7 @@
                     "endOffset": 105
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-w500dp\\values-w500dp.xml",
                     "position": {
                         "startLine": 4,
@@ -60,6 +65,9 @@
                 },
                 "from": {
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-w500dp\\values-w500dp.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-w500dp\\values-w500dp.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

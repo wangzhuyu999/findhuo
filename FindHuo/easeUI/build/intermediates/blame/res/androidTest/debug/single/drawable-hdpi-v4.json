@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_6.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_6.png"
     },
@@ -10,12 +11,25 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_contact_list_normal.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_contact_list_normal.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_09.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_09.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_to_group_details_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_to_group_details_normal.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f3.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f3.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_13.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_13.png"
     },
@@ -58,18 +72,39 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_contact_list_selected.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_contact_list_selected.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_simple.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_simple.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_enable.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_enable.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_30.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_30.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f1.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f1.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_icon_marka.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_icon_marka.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_30.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_30.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_normal.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png",
@@ -88,6 +123,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_clear_pressed.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_search_clear_pressed.png"
     },
@@ -114,16 +150,43 @@
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_14.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_14.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_msg_state_fail_resend_pressed.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_msg_state_fail_resend_pressed.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_2.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_2.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_14.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_14.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_27.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_27.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_bg_focused.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_bg_focused.9.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_1.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_1.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_21.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_21.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png"
     },
@@ -136,34 +199,58 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_28.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_show_head_toast_bg.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_show_head_toast_bg.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_bar_icon_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_search_bar_icon_normal.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_13.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_13.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_disable.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_disable.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_35.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_35.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_32.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_32.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_33.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_33.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_29.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_29.png"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_8.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_8.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_seabar_input.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_seabar_input.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_07.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_07.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f3.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f3.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_default_avatar.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_default_avatar.png"
     },
@@ -176,10 +263,13 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_09.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_09.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_15.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_15.png"
     },
@@ -202,12 +292,17 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f2.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f2.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_12.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_12.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_8.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_8.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_nor.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_nor.png"
     },
@@ -242,12 +337,21 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_seabar_input.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_seabar_input.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_17.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_17.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_11.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_11.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_contact_list_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_contact_list_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_12.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_12.png"
     },
@@ -270,20 +374,36 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_9.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_msg_state_fail_resend.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_msg_state_fail_resend.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_14.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_14.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_35.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_35.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_recorder_start_btn.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_recorder_start_btn.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_settings_normal.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_settings_normal.png"
     },
@@ -314,12 +434,29 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_4.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_4.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_video_mask_to.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_video_mask_to.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_02.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_02.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_05.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_05.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_default_image.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_default_image.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_23.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_23.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_bg_focused.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_bg_focused.9.png"
     },
@@ -328,10 +465,13 @@
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f2.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_nor.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_nor.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_seabar_input.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_seabar_input.9.png"
     },
@@ -342,12 +482,25 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_07.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_07.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_seabar_input.9.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_seabar_input.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_29.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_29.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_10.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_10.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_26.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_26.png"
     },
@@ -366,6 +519,18 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_01.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_01.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_23.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_23.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_26.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_26.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_20.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_20.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_bar_icon_normal.png",
@@ -376,6 +541,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_24.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_21.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_21.png"
     },
@@ -394,36 +560,55 @@
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_02.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_02.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_03.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_03.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_off.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_off.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_29.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_29.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_clear_pressed.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_search_clear_pressed.png"
+=======
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_02.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_02.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_10.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_10.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_13.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_13.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_voice_unread.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_voice_unread.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_download_btn_nor.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_download_btn_nor.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_6.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_6.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_settings_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_settings_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_video_mask_to.9.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_video_mask_to.9.png"
     },
@@ -438,12 +623,17 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_location_msg.9.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_22.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_22.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_01.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_01.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_6.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_6.png"
     },
@@ -452,6 +642,8 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_31.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_normal.png"
     },
@@ -460,6 +652,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_settings_selected.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_gray_on.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_gray_on.png"
     },
@@ -478,6 +671,10 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_13.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_13.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_21.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_21.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_simple.9.png",
@@ -488,14 +685,20 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_25.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_to_group_details_normal.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_to_group_details_normal.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_19.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_19.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_4.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_4.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_icon_marka.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_icon_marka.png"
     },
@@ -506,12 +709,25 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_32.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_32.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_contact_list_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_contact_list_normal.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_clear_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_search_clear_normal.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_location_msg.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_03.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_03.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_2.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_2.png"
     },
@@ -538,12 +754,29 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_02.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_02.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f3.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f3.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_recorder_stop_btn.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_recorder_stop_btn.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_04.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_04.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_login_error_icon.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_login_error_icon.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_08.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_08.png"
     },
@@ -562,12 +795,25 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f1.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f1.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f2.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f2.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_4.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_4.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_icon_marka.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_icon_marka.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_enable.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_enable.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png"
     },
@@ -582,24 +828,58 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_18.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_18.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_back.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_back.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_appitem_del_btn_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_appitem_del_btn_normal.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_login_error_icon.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_login_error_icon.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_ic_launcher.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_ic_launcher.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_04.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_04.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_download_btn_nor.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_download_btn_nor.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_settings_selected.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_settings_selected.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_show_head_toast_bg.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_clear_pressed.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_search_clear_pressed.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_03.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_03.png"
     },
@@ -634,12 +914,49 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_17.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_17.png"
+=======
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_3.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_3.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_12.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_12.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_13.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_13.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_play_btn_small_nor.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_play_btn_small_nor.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_recorder_start_btn.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_recorder_start_btn.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_5.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_5.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_clear_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_search_clear_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_off.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_off.png"
     },
@@ -650,20 +967,34 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_13.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_13.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_conversation_selected.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_conversation_selected.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_34.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_34.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_11.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_11.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_remove.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_remove.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_bg_focused.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_bg_focused.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_5.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_5.png"
     },
@@ -694,12 +1025,45 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_msg_state_fail_resend_pressed.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_msg_state_fail_resend_pressed.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_on.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_on.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_appitem_del_btn_pressed.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_appitem_del_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_18.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_18.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_31.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_31.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_disable.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_disable.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_12.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_12.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f2.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f2.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_show_head_toast_bg.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_show_head_toast_bg.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f2.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f2.png"
     },
@@ -718,6 +1082,26 @@
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_11.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_11.png"
+=======
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_back.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_back.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_14.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_14.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_11.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_11.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_11.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_11.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_1.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_1.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_15.png",
@@ -728,6 +1112,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_08.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_01.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_01.png"
     },
@@ -750,18 +1135,35 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_appitem_del_btn_normal.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_appitem_del_btn_normal.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_bg_normal.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_28.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_28.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_32.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_32.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_msg_state_fail_resend_pressed.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_msg_state_fail_resend_pressed.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_32.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_32.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_28.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_28.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_app_panel_video_icon.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_app_panel_video_icon.9.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_on.png",
@@ -772,10 +1174,13 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_contact_list_selected.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_10.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_10.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_conversation_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_conversation_normal.png"
     },
@@ -784,18 +1189,24 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_17.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_pressed.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_pressed.png"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f3.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f3.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f2.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f2.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_24.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_24.png"
     },
@@ -804,6 +1215,8 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_conversation_normal.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_remove.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_remove.png"
     },
@@ -812,12 +1225,17 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_19.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_19.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_26.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_26.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_16.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_16.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_30.png",
@@ -828,14 +1246,18 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_unread_count_bg.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_recorder_stop_btn.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_recorder_stop_btn.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_06.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_06.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_on.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_on.png"
     },
@@ -846,12 +1268,17 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_1.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_1.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_nor.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_nor.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_groups_icon.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_groups_icon.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_new_friends_icon.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_new_friends_icon.png"
     },
@@ -884,6 +1311,8 @@
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_3.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_13.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_13.png"
     },
@@ -896,6 +1325,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_2.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png"
     },
@@ -908,10 +1338,13 @@
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_16.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_11.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_11.png"
     },
@@ -950,6 +1383,18 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_bg_normal.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_bg_normal.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_33.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_33.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_ic_launcher.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_ic_launcher.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_19.png",
@@ -964,10 +1409,13 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_download_btn_nor.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_download_btn_nor.png"
     },
@@ -976,6 +1424,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_msg_state_fail_resend.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png"
     },
@@ -992,10 +1441,13 @@
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_22.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_default_image.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_default_image.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_20.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_20.png"
     },
@@ -1010,6 +1462,22 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_normal.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_normal.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_08.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_08.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_20.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_20.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_conversation_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_conversation_normal.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f1.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f1.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_video_mask_to.9.png",
@@ -1020,18 +1488,28 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_29.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_location_msg.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_3.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_3.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_groups_icon.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_groups_icon.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_appitem_del_btn_pressed.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_appitem_del_btn_pressed.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png"
     },
@@ -1046,12 +1524,25 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_17.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_17.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_26.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_26.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_app_panel_video_icon.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_app_panel_video_icon.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_back.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_back.png"
     },
@@ -1066,20 +1557,32 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_pressed.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_pressed.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_normal.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_conversation_selected.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_conversation_selected.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_5.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_5.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png"
     },
@@ -1106,6 +1609,14 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_pressed.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f2.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f2.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_bg_focused.9.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_pressed.png",
@@ -1120,14 +1631,20 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_disable.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_disable.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_normal.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_14.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_14.png"
     },
@@ -1138,24 +1655,42 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_16.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_16.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f1.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f1.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_35.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_35.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_recorder_stop_btn.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_recorder_stop_btn.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_login_error_icon.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_login_error_icon.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_7.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_7.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_10.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_10.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_gray_on.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_gray_on.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_7.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_7.png"
     },
@@ -1182,28 +1717,60 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_new_friends_icon.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_new_friends_icon.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_24.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_24.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_7.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_7.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_01.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_01.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_14.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_14.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_voice_unread.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_voice_unread.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_22.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_22.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_normal.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_normal.png"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_default_image.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_default_image.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_7.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_7.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing_f3.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f3.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_11.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_11.png"
     },
@@ -1212,58 +1779,92 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_play_btn_small_nor.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_unread_count_bg.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_unread_count_bg.9.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_21.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_21.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_34.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_34.png"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_face_pressed.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_pressed.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_new_friends_icon.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_new_friends_icon.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_to_group_details_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_to_group_details_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_download_btn_nor.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_download_btn_nor.png"
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_voice_unread.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_voice_unread.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_unread_count_bg.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_unread_count_bg.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_06.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_06.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_settings_normal.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_settings_normal.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_icon_marka.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_icon_marka.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chat_video_mask_to.9.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_video_mask_to.9.png"
+=======
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_voice_unread.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_voice_unread.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_34.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_34.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_05.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_05.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_24.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_24.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_new_friends_icon.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_new_friends_icon.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_remove.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_remove.png"
     },
@@ -1272,18 +1873,26 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f1.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing_f1.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_remove.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_remove.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_gray_on.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_gray_on.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_12.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_12.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_33.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_33.png"
     },
@@ -1302,12 +1911,17 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_slidetab_bg_press.9.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_25.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_25.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_27.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_27.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_default_avatar.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_default_avatar.png"
     },
@@ -1318,12 +1932,21 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_10.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_10.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_record_animate_10.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_record_animate_10.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_8.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_8.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_appitem_del_btn_normal.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_appitem_del_btn_normal.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png"
     },
@@ -1350,12 +1973,33 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_voice_btn_pressed.png"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_listitem_grey_normal.9.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_default_avatar.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_default_avatar.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_31.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_31.png"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_15.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_15.png"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_18.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_18.png"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_video_play_btn_small_nor.png",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_video_play_btn_small_nor.png"
     },
@@ -1368,10 +2012,19 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_voice_playing_f1.png"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_search_clear_pressed.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_search_clear_pressed.png"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_off.png",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_dx_checkbox_off.png"
+    },
+    {
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatfrom_voice_playing.png",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatfrom_voice_playing.png"
     },

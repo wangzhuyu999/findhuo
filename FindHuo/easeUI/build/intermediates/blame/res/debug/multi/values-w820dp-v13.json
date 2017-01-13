@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+=======
+        "outputFile": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+>>>>>>> 2
         "map": [
             {
                 "to": {
@@ -11,6 +15,7 @@
                     "endOffset": 108
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\values-w820dp\\ease_dimens.xml",
                     "position": {
                         "startLine": 7,
@@ -36,6 +41,9 @@
                 },
                 "from": {
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\values-w820dp\\ease_dimens.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\values-w820dp\\ease_dimens.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

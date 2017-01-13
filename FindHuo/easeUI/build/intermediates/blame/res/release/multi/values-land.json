@@ -119,7 +119,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
+=======
+        "outputFile": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
+>>>>>>> 2
         "map": [
             {
                 "to": {
@@ -130,7 +134,11 @@
                     "endOffset": 112
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -149,7 +157,11 @@
                     "endOffset": 184
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -168,7 +180,11 @@
                     "endOffset": 254
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -187,7 +203,11 @@
                     "endOffset": 318
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -206,7 +226,11 @@
                     "endOffset": 389
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -225,6 +249,7 @@
                     "endOffset": 457
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 17,
@@ -345,6 +370,9 @@
                 },
                 "from": {
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-land\\values-land.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,

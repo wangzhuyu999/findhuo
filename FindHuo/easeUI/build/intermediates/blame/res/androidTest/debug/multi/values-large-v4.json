@@ -290,7 +290,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+=======
+        "outputFile": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+>>>>>>> 2
         "map": [
             {
                 "to": {
@@ -301,7 +305,11 @@
                     "endOffset": 112
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -320,7 +328,11 @@
                     "endOffset": 184
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -339,7 +351,11 @@
                     "endOffset": 243
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -358,7 +374,11 @@
                     "endOffset": 314
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -377,7 +397,11 @@
                     "endOffset": 385
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -396,7 +420,11 @@
                     "endOffset": 455
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -415,7 +443,11 @@
                     "endOffset": 525
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -434,7 +466,11 @@
                     "endOffset": 593
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -453,7 +489,11 @@
                     "endOffset": 661
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -472,7 +512,11 @@
                     "endOffset": 725
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -491,7 +535,11 @@
                     "endOffset": 778
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\values-large-v4\\values-large-v4.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\values-large-v4\\values-large-v4.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -510,7 +558,11 @@
                     "endOffset": 832
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\values-large-v4\\values-large-v4.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\values-large-v4\\values-large-v4.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -529,7 +581,11 @@
                     "endOffset": 887
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -548,7 +604,11 @@
                     "endOffset": 991
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -567,6 +627,7 @@
                     "endOffset": 1107
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
                     "position": {
                         "startLine": 22,
@@ -858,6 +919,9 @@
                 },
                 "from": {
                     "file": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+=======
+                    "file": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-large\\values-large.xml",
+>>>>>>> 2
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

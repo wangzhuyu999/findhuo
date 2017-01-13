@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
+=======
+import com.jinyuankeji.yxm.findhuo.lottery.ui.LoginActivity;
+
+>>>>>>> 2
 /**
  * Created by Administrator on 2017/1/7 0007.
  */

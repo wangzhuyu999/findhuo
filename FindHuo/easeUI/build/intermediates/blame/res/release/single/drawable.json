@@ -1,13 +1,17 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_voice_btn.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_msg_state_failed_resend.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
     },
@@ -26,24 +30,40 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_normal_shape.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_normal_shape.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
@@ -52,8 +72,13 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_location_selector.xml",
@@ -64,18 +89,24 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_hint_bg.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
@@ -88,18 +119,26 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_sidebar_background_pressed.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_image_selector.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
@@ -114,6 +153,22 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_image_selector.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatto_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
@@ -124,6 +179,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
     },
@@ -154,6 +210,10 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_sidebar_background_pressed.xml",
@@ -168,30 +228,45 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_common_tab_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_press_speak_btn.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_common_tab_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_common_tab_bg.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_send_btn_selector.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
@@ -206,6 +281,10 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
@@ -216,14 +295,20 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_pressed_shape.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
     },
@@ -232,6 +317,8 @@
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_sidebar_background_pressed.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_msg_state_failed_resend.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
     },
@@ -240,22 +327,31 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
@@ -278,12 +374,25 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_bj.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
     },
@@ -314,12 +423,29 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_edit_text_bg.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_location_selector.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_hint_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_timestampe_bg.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
     },
@@ -330,6 +456,14 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_send_btn_selector.xml",
@@ -340,6 +474,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
     },
@@ -352,18 +487,24 @@
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_press_speak_btn.xml"
     },
@@ -374,12 +515,33 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_timestampe_bg.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_pressed_shape.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
     },
@@ -390,34 +552,69 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatto_bg.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_location_selector.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_location_selector.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_sidebar_background_pressed.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_common_tab_bg.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_common_tab_bg.xml"
+=======
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_timestampe_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
@@ -428,12 +625,36 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_selector.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_normal_shape.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_normal_shape.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_press_speak_btn.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
@@ -444,6 +665,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_selector.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_selector.xml"
     },
@@ -452,6 +674,8 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
     },
@@ -460,6 +684,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_selector.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
     },
@@ -498,24 +723,46 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_bj.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_bj.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_edit_text_bg.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_image_selector.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem.xml"
     },
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatto_bg.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem_grey.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
     },
@@ -546,12 +793,21 @@
     {
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
+>>>>>>> 2
     },
     {
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_normal_shape.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_edit_text_bg.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
     },
@@ -560,18 +816,24 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
     },
@@ -580,6 +842,8 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
     },
     {
+=======
+>>>>>>> 2
         "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_bj.xml",
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_bj.xml"
     },
@@ -588,6 +852,7 @@
         "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_normal_shape.xml",
         "source": "D:\\demo\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
     },
@@ -598,5 +863,9 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
+=======
+        "merged": "D:\\NEWS\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "D:\\NEWS\\FindHuo\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
+>>>>>>> 2
     }
 ]

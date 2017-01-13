@@ -74,14 +74,22 @@
         <activity android:name=".lottery.detail.LotteryDetailActivity"/>
         <activity android:name=".lottery.detail.PayExtraActivity"/>
         <activity android:name=".lottery.detail.PaySureActivity"/>
+<<<<<<< HEAD
+=======
+        <activity android:name=".lottery.ui.LoginActivity"></activity>
+>>>>>>> 2
         <activity android:name=".findwork.hot_type.hot_type_detail.hot_type_detail_one.FindWorkHotTypeDetailActivity"/>
         <activity android:name=".findwork.declare_new.declare_new_detail.FindWorkNewDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_one.FindWorkHotTypeTaxiDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_detail_two.FindWorkHotTypeFindCarDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.psychological.FindWorkHotTypePsychologicalDetailActivity"/>
+<<<<<<< HEAD
 
         <activity android:name=".MainActivity"/>
 
+=======
+<activity android:name=".MainActivity"/>
+>>>>>>> 2
 
         <activity android:name=".declare.FindCarActivity"></activity>
         <activity android:name=".declare.FindWorkActivity"></activity>
@@ -101,7 +109,11 @@
 
         <service android:name="com.amap.api.location.APSService"/>
 
+<<<<<<< HEAD
 <activity android:name=".LoginActivity"/>
+=======
+
+>>>>>>> 2
 
 
         <meta-data
@@ -135,6 +147,16 @@
             android:value="XdNnLD4Q9MYPheUoDGXwLL5u" />
 
 
+<<<<<<< HEAD
+=======
+        <!--<activity android:name=".lottery.ui.LoginActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--&lt;!&ndash;<category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+>>>>>>> 2
         <activity android:name=".lottery.ui.MainCActivity"
                   android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity
@@ -161,8 +183,12 @@
             android:name="com.hyphenate.easeui.ui.EaseShowVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
+<<<<<<< HEAD
 
         <activity android:name=".RegistActivity"/>
+=======
+        <activity android:name=".lottery.ui.RegistActivity"></activity>
+>>>>>>> 2
     </application>
 
 </manifest>

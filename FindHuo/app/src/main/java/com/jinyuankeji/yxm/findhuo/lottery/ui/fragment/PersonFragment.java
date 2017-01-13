@@ -17,10 +17,17 @@ import android.widget.TextView;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
+<<<<<<< HEAD
 import com.jinyuankeji.yxm.findhuo.LoginActivity;
 import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.base_chat.GlobalField;
 import com.jinyuankeji.yxm.findhuo.base.base_chat.MyConnectionListener;
+=======
+import com.jinyuankeji.yxm.findhuo.R;
+import com.jinyuankeji.yxm.findhuo.base.base_chat.GlobalField;
+import com.jinyuankeji.yxm.findhuo.base.base_chat.MyConnectionListener;
+import com.jinyuankeji.yxm.findhuo.lottery.ui.LoginActivity;
+>>>>>>> 2
 
 
 import butterknife.ButterKnife;

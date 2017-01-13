@@ -4,6 +4,10 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.util.Log;
+<<<<<<< HEAD
+=======
+import android.view.TextureView;
+>>>>>>> 2
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -14,6 +18,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.hyphenate.EMCallBack;
+<<<<<<< HEAD
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMMessage;
 import com.hyphenate.exceptions.HyphenateException;
@@ -22,6 +27,23 @@ import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.BaseActivity;
 import com.jinyuankeji.yxm.findhuo.tools.DataValue;
 
+=======
+import com.hyphenate.EMContactListener;
+import com.hyphenate.chat.EMChatManager;
+import com.hyphenate.chat.EMClient;
+import com.hyphenate.chat.EMConversation;
+import com.hyphenate.chat.EMMessage;
+import com.hyphenate.exceptions.HyphenateException;
+import com.jinyuankeji.yxm.findhuo.R;
+import com.jinyuankeji.yxm.findhuo.base.BaseActivity;
+import com.jinyuankeji.yxm.findhuo.lottery.ui.LoginActivity;
+import com.jinyuankeji.yxm.findhuo.tools.DataValue;
+
+import java.util.Map;
+
+import butterknife.ButterKnife;
+
+>>>>>>> 2
 
 /**
  * Created by  yxiaomin on 2016/12/20 0020.
