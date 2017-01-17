@@ -12,7 +12,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,14 +26,12 @@ import com.amap.api.maps2d.MapView;
 import com.amap.api.maps2d.UiSettings;
 import com.amap.api.maps2d.model.LatLng;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.BaseFragment;
 
 import com.jinyuankeji.yxm.findhuo.lottery.detail.LotteryDetailActivity;
 import com.jinyuankeji.yxm.findhuo.lottery.more.MoreActivity;
 import com.jinyuankeji.yxm.findhuo.tools.DataValue;
-import com.jinyuankeji.yxm.findhuo.tools.JsonUtils;
 import com.jinyuankeji.yxm.findhuo.tools.MyRVOnClickListener;
 import com.jinyuankeji.yxm.findhuo.tools.SVR;
 import com.jinyuankeji.yxm.findhuo.tools.URLValue;
@@ -44,7 +41,6 @@ import com.lidroid.xutils.http.RequestParams;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest;
-import com.squareup.picasso.Picasso;
 
 
 import java.text.SimpleDateFormat;
@@ -67,15 +63,13 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
     private TextView tvMore;
     private LinearLayout llTip;
     private LotteryViewPagerAdapter myAdapter;
-    private ArrayList<LotteryViewPagerBean> images;
+    private ArrayList<LotteryViewPagerBean> mBeanList;
     private Handler handler;
     private boolean flag = true;
     private boolean mm = true;
     private ImageView[] tips;
 
     private LotteryStationRVAdapter rvAdapter;
-    private LotteryStationBean stationBean;
-    private ArrayList<LotteryStationBean> beanArrayList;
     private ScrollView scrollView;
 
     private MapView mMapView = null;
@@ -112,30 +106,39 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
     @Override
     protected void initData() {
         scrollView.scrollTo(0, 0);
-
+        mMapView = (MapView) getView().findViewById(R.id.map_view);
+        //在activity执行onCreate时执行mMapView.onCreate(savedInstanceState)，
+//       mMapView.onCreate(savedInstanceState);
+        if (aMap == null) {
+            aMap = mMapView.getMap();
+            UiSettings settings = aMap.getUiSettings();
+            aMap.setLocationSource(this);
+            settings.setMyLocationButtonEnabled(true);
+            aMap.setMyLocationEnabled(true);
+        }
+        mLocationClient = new AMapLocationClient(getActivity());
+        mLocationClient.setLocationListener(this);
+        mLocationOption = new AMapLocationClientOption();
+        mLocationOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
+        mLocationOption.setNeedAddress(true);
+        mLocationOption.setOnceLocation(false);
+        mLocationOption.setWifiActiveScan(true);
+        mLocationOption.setMockEnable(false);
+        mLocationOption.setInterval(2000);
+        mLocationClient.setLocationOption(mLocationOption);
+        mLocationClient.startLocation();
         myAdapter = new LotteryViewPagerAdapter(getActivity());
-        images = new ArrayList<>();
+        mBeanList = new ArrayList<>();
 
         request();
-
-        initViewPager();
-
+        initVP();
         rvAdapter = new LotteryStationRVAdapter(getActivity());
-        beanArrayList = new ArrayList<>();
         svAndRV.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayout.VERTICAL, false));
-        LotteryStationBean bean = new LotteryStationBean();
-        for (int i = 0; i < 50; i++) {
-            bean.setAddr("大东区");
-            bean.setNamr("张三");
-            bean.setImg(R.mipmap.btn_pay_selected3x);
-            beanArrayList.add(bean);
-        }
-        rvAdapter.setStationBeanList(beanArrayList);
-        svAndRV.setAdapter(rvAdapter);
         rvAdapter.setMyRvListener(new MyRVOnClickListener() {
             @Override
             public void onClick(int position) {
                 Intent intent = new Intent(getActivity(), LotteryDetailActivity.class);
+                DataValue.LOTTERY_MAIN_ID = mBean.getLottery().get(position).getId_lottery();
                 startActivity(intent);
             }
         });
@@ -150,38 +153,9 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
                 startActivity(intent);
             }
         });
-
-        //获取地图控件引用
-        mMapView = (MapView) getView().findViewById(R.id.map_view);
-        //在activity执行onCreate时执行mMapView.onCreate(savedInstanceState)，实现地图生命周期管理
-//       mMapView.onCreate(savedInstanceState);
-
-
-        if (aMap == null) {
-            aMap = mMapView.getMap();
-            UiSettings settings = aMap.getUiSettings();
-            aMap.setLocationSource(this);
-            settings.setMyLocationButtonEnabled(true);
-            aMap.setMyLocationEnabled(true);
-        }
-
-        mLocationClient = new AMapLocationClient(getActivity());
-        mLocationClient.setLocationListener(this);
-        mLocationOption = new AMapLocationClientOption();
-        mLocationOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
-        mLocationOption.setNeedAddress(true);
-        mLocationOption.setOnceLocation(false);
-        mLocationOption.setWifiActiveScan(true);
-        mLocationOption.setMockEnable(false);
-        mLocationOption.setInterval(2000);
-        mLocationClient.setLocationOption(mLocationOption);
-        mLocationClient.startLocation();
-
-
     }
 
-    private void initViewPager() {
-
+    private void initVP() {
         handler = new Handler(new Handler.Callback() {
             @Override
             public boolean handleMessage(Message msg) {
@@ -189,8 +163,6 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
                 return false;
             }
         });
-
-
         if (mm) {
             new Thread(new Runnable() {
                 @Override
@@ -207,8 +179,8 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
             }).start();
             mm = false;
         }
-        tips = new ImageView[images.size()];
-        for (int i = 0; i < images.size(); i++) {
+        tips = new ImageView[mBeanList.size()];
+        for (int i = 0; i < mBeanList.size(); i++) {
             ImageView imageView = new ImageView(getActivity());
             imageView.setLayoutParams(new LinearLayout.LayoutParams(10, 10));
             tips[i] = imageView;
@@ -273,7 +245,7 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
                 Log.e("AmapError", "location Error, ErrCode:"
                         + aMapLocation.getErrorCode() + ", errInfo:"
                         + aMapLocation.getErrorInfo());
-                Toast.makeText(getActivity(), "获取失败。", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "位置获取失败。", Toast.LENGTH_LONG).show();
             }
         }
     }
@@ -315,52 +287,49 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
         mMapView.onSaveInstanceState(outState);
     }
 
-
     private void request() {
         HttpUtils httpUtils = new HttpUtils();
-        // 请求参数
         RequestParams params = new RequestParams();
-        // 发送请求数据
-        Log.d("tttttttt", URLValue.URL_NOR + URLValue.URL_LOTTERY_BANNER);
-        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + URLValue.URL_LOTTERY_BANNER, params,
+        params.addBodyParameter("section", "1");
+        params.addBodyParameter("city", DataValue.LOCATION);
+        params.addBodyParameter("size", "10");
+        Log.d("tttttttt", URLValue.URL_NOR + URLValue.URL_HOMEPAGE);
+        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + URLValue.URL_HOMEPAGE, params,
                 new RequestCallBack<String>() {
-                    // 请求接口失败 arg1 为后台返回的错误信息
                     @Override
                     public void onFailure(HttpException arg0, String arg1) {
                         Log.i("请求失败", "3333333333333333333333 error: " + arg1.toString());
                     }
 
-                    // 请求接口成功 arg0.tostring 为后台返回的信息
                     @Override
                     public void onSuccess(ResponseInfo<String> arg0) {
-
-//                        if (arg0.result.toString().equals("0")) {
-//                        } else {
                         Log.e("ahhhh请求成功", "111111111111111111111111111111 onSuccess" + arg0.result.toString());
-                        //  getList(arg0.result.toString());// 请求返回的数据，json解析
                         String json = arg0.result.toString();
-//                           mBean = JsonUtils.getJtoC(json, LotteryViewPagerBean.class);
-
-                        Gson gson = new Gson();
-
-                        images = gson.fromJson(json, new TypeToken<List<LotteryViewPagerBean>>() {
-                        }.getType());
-                        Log.d("LotteryFragment", "images:" + images);
-                        if (images == null) {
-                            Log.d("LotteryFragment", "实体类为null");
+                        if (json.length() == 0) {
                         } else {
-//                            images.add(mBean);
-                            Log.d("DeclareActivity", images.get(0).getImgurl());
+                            Gson gson = new Gson();
+                            mBean = gson.fromJson(json, LotteryViewPagerBean.class);
+//                            DataValue.LOTTERY_VIEWPAGER_BEAN = mBean;
+                            if (mBean == null) {
+                                Log.d("LotteryFragment", "实体类为null");
+                            } else if (mBean.getRes() == 10001){
+                                mBeanList.add(mBean);
+                                Log.d("DeclareActivity", mBeanList.get(0).getSlider().get(0).getImgurl());
 
-                            myAdapter.setImages(images);
-                            myAdapter.setViewPager(viewPagerBanner);
-                            viewPagerBanner.setAdapter(myAdapter);
-
+                                myAdapter.setImages(mBeanList);
+                                myAdapter.setViewPager(viewPagerBanner);
+                                viewPagerBanner.setAdapter(myAdapter);
+                                rvAdapter.setStationBean(mBean);
+                                svAndRV.setAdapter(rvAdapter);
+                            }else if (mBean.getRes() == 10002) {
+                                Toast.makeText(getActivity(), "暂时无数据", Toast.LENGTH_SHORT).show();
+                            } else if (mBean.getRes() == 10000) {
+                                Toast.makeText(getActivity(), "请求失败", Toast.LENGTH_SHORT).show();
+                            }else if (mBean.getRes() == 10003){
+                                Toast.makeText(getActivity(), "彩票站暂无数据", Toast.LENGTH_SHORT).show();
+                            }
                         }
-
                     }
-//                    }
                 });
-
     }
 }

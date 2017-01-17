@@ -80,15 +80,12 @@ private TextView register;
             EMClient.getInstance().groupManager().loadAllGroups();
             EMClient.getInstance().chatManager().loadAllConversations();
             if (DataValue.FINDHUO_CHAT.equals("添加")) {
-
                 startActivity(new Intent(LoginActivity.this, MainCActivity.class));
             } else {
-
                 startActivity(new Intent(LoginActivity.this, MainActivity.class));
             }
             finish();
             Log.e("main", "已经登录过了！");
-
         }
     }
 

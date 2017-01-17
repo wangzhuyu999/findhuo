@@ -19,4 +19,7 @@
     <color name="none_color">#00000000</color>
     <color name="grey">#d1d1d1</color>
     <color name="grey1">#c8c8c8</color>
+    <color name="search_hint_color">#c8c8c8</color>
+
+    <color name="search_txt_color">#706e6e</color>
 </resources>

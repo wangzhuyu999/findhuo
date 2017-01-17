@@ -44,6 +44,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="20sp"/>
             </RelativeLayout>
+
     <ScrollView
         android:id="@+id/sv_lottery"
         android:layout_width="match_parent"
@@ -119,7 +120,6 @@
                 android:layout_height="wrap_content"
                 android:scrollbars="none"
                 android:layout_marginTop="10dp"/>
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

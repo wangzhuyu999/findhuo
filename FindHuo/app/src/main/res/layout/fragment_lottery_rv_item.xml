@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/iv_lottery_rv_item_icon"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="7dp"
         android:layout_toRightOf="@id/iv_lottery_rv_item_icon"
         android:text="站名"
         android:textSize="16sp"/>
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_lottery_station_name"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/iv_lottery_rv_item_icon"
         android:text="地址"
         android:textSize="16sp"/>

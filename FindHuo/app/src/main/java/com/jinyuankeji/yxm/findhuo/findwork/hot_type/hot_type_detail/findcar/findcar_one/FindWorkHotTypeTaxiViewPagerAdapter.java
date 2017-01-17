@@ -9,8 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.jinyuankeji.yxm.findhuo.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by yxiaomin on 2016/12/19 0019.
@@ -18,7 +20,7 @@ import java.util.ArrayList;
 
 public class FindWorkHotTypeTaxiViewPagerAdapter extends PagerAdapter implements ViewPager.OnPageChangeListener  {
 
-    private ArrayList<Integer> images;
+    private TaxiViewPagerBean images;
     private Context context;
     private ViewPager viewPager;
     private ImageView[] tips;
@@ -35,7 +37,7 @@ public class FindWorkHotTypeTaxiViewPagerAdapter extends PagerAdapter implements
         this.context = context;
     }
 
-    public void setImages(ArrayList<Integer> images) {
+    public void setImages(TaxiViewPagerBean images) {
         this.images = images;
     }
 
@@ -55,7 +57,7 @@ public class FindWorkHotTypeTaxiViewPagerAdapter extends PagerAdapter implements
         View view = LayoutInflater.from(context).inflate(R.layout.fragment_lottery_banner_item,null);
         ImageView imageView = (ImageView) view.findViewById(R.id.image_view);
 
-        imageView.setImageResource(images.get(position % images.size()));
+        Picasso.with(context).load(images.getData().get(position % images.getData().size()).getImgurl()).into(imageView);
 
         container.addView(view);
 
@@ -79,7 +81,7 @@ public class FindWorkHotTypeTaxiViewPagerAdapter extends PagerAdapter implements
 
         for (int i = 0; i < tips.length; i++) {
 
-            if(i == position % images.size()){
+            if(i == position % images.getData().size()){
 
                 tips[i].setImageResource(R.mipmap.fri3x);
             }else {

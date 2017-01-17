@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jinyuankeji.yxm.findhuo.R;
-import com.jinyuankeji.yxm.findhuo.lottery.LotteryStationBean;
+import com.jinyuankeji.yxm.findhuo.lottery.LotteryViewPagerBean;
 
 import java.util.List;
 import java.util.Map;
@@ -20,7 +20,7 @@ import java.util.Map;
 
 public class FindWorkHotAdapter extends BaseAdapter {
     private Context mContext;
-    private LotteryStationBean stationBean;
+    private LotteryViewPagerBean stationBean;
     private List<FindWorkHotBean> datass;
     private List<Map<String, Object>> datas;
 
@@ -35,7 +35,7 @@ public class FindWorkHotAdapter extends BaseAdapter {
 
 
 
-    public void setStationBean(LotteryStationBean stationBean) {
+    public void setStationBean(LotteryViewPagerBean stationBean) {
         this.stationBean = stationBean;
         notifyDataSetChanged();
     }

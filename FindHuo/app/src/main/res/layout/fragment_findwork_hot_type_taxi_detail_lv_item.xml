@@ -44,7 +44,7 @@
         android:layout_marginTop="15dp"
         android:textColor="@color/colorLotteryDetail"
         android:layout_alignLeft="@id/tv_findworke_hot_type_taxi_detail_item_name"
-        android:layout_below="@id/tv_findworke_hot_type_taxi_detail_item_name"
+        android:layout_below="@id/tv_findworke_hot_type_taxi_detail_item_addr"
         android:text="发布时间: "
         />
 
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:layout_marginTop="15dp"
-        android:layout_below="@id/tv_findworke_hot_type_taxi_detail_item_name"
+        android:layout_below="@id/tv_findworke_hot_type_taxi_detail_item_addr"
         android:layout_toRightOf="@id/tv_findworke_hot_type_taxi_detail_item_time_tv"
         android:text="time"
         />

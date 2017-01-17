@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.tools.MyRVOnClickListener;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -22,22 +23,23 @@ import java.util.ArrayList;
 public class LotteryStationRVAdapter extends RecyclerView.Adapter<LotteryStationRVAdapter.ViewHolderLotteryStation>{
     private MyRVOnClickListener mMyRvListener;
     private Context mContext;
-    private LotteryStationBean stationBean;
-    private ArrayList<LotteryStationBean> stationBeanList;
+    private LotteryViewPagerBean stationBean;
+    private ArrayList<LotteryViewPagerBean> stationBeanList;
 
 
     public LotteryStationRVAdapter(Context context) {
         mContext = context;
     }
 
-    public void setStationBeanList(ArrayList<LotteryStationBean> stationBeanList) {
+    public void setStationBeanList(ArrayList<LotteryViewPagerBean> stationBeanList) {
         this.stationBeanList = stationBeanList;
-        Log.d("LotteryStationRVAdapter", stationBeanList.get(0).getAddr());
+        Log.d("LotteryStationRVAdapter", stationBeanList.get(0).getLottery().get(0).getAddress());
         notifyDataSetChanged();
     }
 
-    public void setStationBean(LotteryStationBean stationBean) {
+    public void setStationBean(LotteryViewPagerBean stationBean) {
         this.stationBean = stationBean;
+        Log.d("LotteryStationRVAdapter", stationBean.getLottery().get(0).getAddress());
         notifyDataSetChanged();
     }
 
@@ -54,11 +56,10 @@ public class LotteryStationRVAdapter extends RecyclerView.Adapter<LotteryStation
 
     @Override
     public void onBindViewHolder(final ViewHolderLotteryStation holder, int position) {
-        Log.d("LotteryStationRVAdapter", stationBeanList.get(position).getNamr());
-        holder.tvName.setText(stationBeanList.get(position).getNamr());
-        holder.tvAddr.setText(stationBeanList.get(position).getAddr());
-        holder.ivImg.setImageResource(stationBeanList.get(position).getImg());
-
+        Log.d("LotteryStationRVAdapter",stationBean.getLottery().get(position).getAddress());
+        holder.tvName.setText(stationBean.getLottery().get(position).getLotteryname());
+        holder.tvAddr.setText(stationBean.getLottery().get(position).getAddress());
+        Picasso.with(mContext).load(stationBean.getLottery().get(position).getImgsmall()).into(holder.ivImg);
         holder.ll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,7 +71,7 @@ public class LotteryStationRVAdapter extends RecyclerView.Adapter<LotteryStation
 
     @Override
     public int getItemCount() {
-        return 2;
+        return stationBean.getLottery().size();
     }
 
     public class ViewHolderLotteryStation extends RecyclerView.ViewHolder {

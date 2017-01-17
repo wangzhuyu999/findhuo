@@ -88,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/tv_findcar_detail_declare_time_tv"
-        android:layout_below="@id/tv_findcar_detail_declare_time_tv"
+        android:layout_below="@id/tv_findcar_detail_declare_time"
         android:layout_marginTop="15dp"
         android:text="起点:"
         android:textColor="@color/colorLotteryDetail"
@@ -110,7 +110,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/tv_findcar_detail_start_tv"
-        android:layout_below="@id/tv_findcar_detail_start_tv"
+        android:layout_below="@id/tv_findcar_detail_start"
         android:layout_marginTop="15dp"
         android:text="终点:"
         android:textColor="@color/colorLotteryDetail"
@@ -118,6 +118,7 @@
         />
 
     <TextView
+        android:id="@+id/tv_findcar_detail_end"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/tv_findcar_detail_end_tv"
@@ -133,7 +134,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/tv_findcar_detail_end_tv"
-        android:layout_below="@id/tv_findcar_detail_end_tv"
+        android:layout_below="@id/tv_findcar_detail_end"
         android:layout_marginTop="15dp"
         android:text="拨打电话:"
         android:textColor="@color/colorLotteryDetail"
@@ -146,7 +147,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/tv_findcar_detail_cal_tv"
         android:layout_alignTop="@id/tv_findcar_detail_cal_tv"
-        android:layout_below="@id/tv_findcar_detail_end_tv"
+
         android:layout_toRightOf="@id/tv_findcar_detail_cal_tv"
         android:paddingLeft="10dp"
         android:src="@mipmap/tel_iconlan3x"/>

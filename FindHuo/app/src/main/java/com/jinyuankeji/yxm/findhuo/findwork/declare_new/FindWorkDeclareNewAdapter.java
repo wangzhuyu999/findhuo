@@ -10,9 +10,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.jinyuankeji.yxm.findhuo.R;
-import com.jinyuankeji.yxm.findhuo.lottery.LotteryStationBean;
+import com.jinyuankeji.yxm.findhuo.findwork.FindWorkDeclareNewBean;
+import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,21 +21,16 @@ import java.util.List;
 
 public class FindWorkDeclareNewAdapter extends BaseAdapter{
     private Context mContext;
-    private LotteryStationBean stationBean;
-    private List<FindWorkDeclareNewBean> datas;
+
+    private FindWorkDeclareNewBean datas;
 
 
     public FindWorkDeclareNewAdapter(Context context) {
         mContext = context;
     }
 
-    public void setDatas(List<FindWorkDeclareNewBean> datas) {
+    public void setDatas(FindWorkDeclareNewBean datas) {
         this.datas = datas;
-    }
-
-    public void setStationBean(LotteryStationBean stationBean) {
-        this.stationBean = stationBean;
-        notifyDataSetChanged();
     }
 
     @Override
@@ -45,7 +40,7 @@ public class FindWorkDeclareNewAdapter extends BaseAdapter{
 
     @Override
     public Object getItem(int position) {
-        return datas == null ? null : datas.size();
+        return datas.getIntroduce() == null ? null : datas.getIntroduce().size();
     }
 
     @Override
@@ -65,12 +60,11 @@ public class FindWorkDeclareNewAdapter extends BaseAdapter{
             viewHolder = (ViewHolderLotteryStation) convertView.getTag();
         }
 
-        viewHolder.tvName.setText(datas.get(position).getName());
-        viewHolder.tvJob.setText(datas.get(position).getJob());
-        viewHolder.tvRange.setText(datas.get(position).getRange());
-        viewHolder.tvPrice.setText(datas.get(position).getPrice());
-        viewHolder.ivImg.setImageResource(datas.get(position).getImg());
-
+        viewHolder.tvName.setText(datas.getIntroduce().get(position).getName());
+        viewHolder.tvJob.setText(datas.getIntroduce().get(position).getTitle());
+        viewHolder.tvRange.setText(datas.getIntroduce().get(position).getService_area());
+        viewHolder.tvPrice.setText(datas.getIntroduce().get(position).getSalary());
+        Picasso.with(mContext).load(datas.getIntroduce().get(position).getHeadimg()).into(viewHolder.ivImg);
 
         return convertView;
 

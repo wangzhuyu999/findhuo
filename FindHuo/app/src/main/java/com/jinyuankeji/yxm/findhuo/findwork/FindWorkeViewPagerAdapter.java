@@ -9,8 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.jinyuankeji.yxm.findhuo.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by yxiaomin on 2016/12/19 0019.
@@ -18,7 +20,7 @@ import java.util.ArrayList;
 
 public class FindWorkeViewPagerAdapter extends PagerAdapter implements ViewPager.OnPageChangeListener  {
 
-    private ArrayList<Integer> images;
+    private FindWorkDeclareNewBean images;
     private Context context;
     private ViewPager viewPager;
     private ImageView[] tips;
@@ -35,13 +37,13 @@ public class FindWorkeViewPagerAdapter extends PagerAdapter implements ViewPager
         this.context = context;
     }
 
-    public void setImages(ArrayList<Integer> images) {
+    public void setImages(FindWorkDeclareNewBean images) {
         this.images = images;
     }
 
     @Override
     public int getCount() {
-        return images == null? 0 : Integer.MAX_VALUE;
+        return images.getSlider() == null? 0 : Integer.MAX_VALUE;
     }
 
     @Override
@@ -54,8 +56,8 @@ public class FindWorkeViewPagerAdapter extends PagerAdapter implements ViewPager
 
         View view = LayoutInflater.from(context).inflate(R.layout.fragment_lottery_banner_item,null);
         ImageView imageView = (ImageView) view.findViewById(R.id.image_view);
+        Picasso.with(context).load(images.getSlider().get(position % images.getSlider().size()).getImgurl()).into(imageView);
 
-        imageView.setImageResource(images.get(position % images.size()));
 
         container.addView(view);
 
@@ -79,7 +81,7 @@ public class FindWorkeViewPagerAdapter extends PagerAdapter implements ViewPager
 
         for (int i = 0; i < tips.length; i++) {
 
-            if(i == position % images.size()){
+            if(i == position % images.getSlider().size()){
 
                 tips[i].setImageResource(R.mipmap.fri3x);
             }else {

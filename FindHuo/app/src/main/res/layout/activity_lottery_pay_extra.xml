@@ -66,7 +66,7 @@
             android:layout_toRightOf="@id/iv_lottery_pay_tv"
             android:text="余额支付："
             android:textColor="#757575"
-            android:textSize="15sp"/>
+            android:textSize="16sp"/>
 
         <ImageView
             android:layout_width="wrap_content"

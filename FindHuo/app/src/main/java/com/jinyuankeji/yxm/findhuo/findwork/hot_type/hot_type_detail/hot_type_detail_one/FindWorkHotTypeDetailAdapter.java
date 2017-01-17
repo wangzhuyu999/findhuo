@@ -10,8 +10,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.jinyuankeji.yxm.findhuo.R;
-import com.jinyuankeji.yxm.findhuo.findwork.declare_new.FindWorkDeclareNewBean;
-import com.jinyuankeji.yxm.findhuo.lottery.LotteryStationBean;
+import com.jinyuankeji.yxm.findhuo.findwork.FindWorkDeclareNewBean;
+import com.jinyuankeji.yxm.findhuo.lottery.LotteryViewPagerBean;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -19,33 +20,26 @@ import java.util.List;
  * Created by yxiaomin on 2016/12/19 0019.
  */
 
-public class FindWorkHotTypeDetailAdapter extends BaseAdapter{
+public class FindWorkHotTypeDetailAdapter extends BaseAdapter {
     private Context mContext;
-    private LotteryStationBean stationBean;
-    private List<FindWorkDeclareNewBean> datas;
-
+    private FinfWorkHotTypeDetailBean datas;
 
     public FindWorkHotTypeDetailAdapter(Context context) {
         mContext = context;
     }
 
-    public void setDatas(List<FindWorkDeclareNewBean> datas) {
+    public void setDatas(FinfWorkHotTypeDetailBean datas) {
         this.datas = datas;
-    }
-
-    public void setStationBean(LotteryStationBean stationBean) {
-        this.stationBean = stationBean;
-        notifyDataSetChanged();
     }
 
     @Override
     public int getCount() {
-        return datas != null && datas.size() > 0 ? datas.size() : 0;
+        return datas != null && datas.getData().size() > 0 ? datas.getData().size() : 0;
     }
 
     @Override
     public Object getItem(int position) {
-        return datas == null ? null : datas.size();
+        return datas == null ? null : datas.getData().size();
     }
 
     @Override
@@ -65,11 +59,11 @@ public class FindWorkHotTypeDetailAdapter extends BaseAdapter{
             viewHolder = (ViewHolderLotteryStation) convertView.getTag();
         }
 
-        viewHolder.tvName.setText(datas.get(position).getName());
-        viewHolder.tvJob.setText(datas.get(position).getJob());
-        viewHolder.tvRange.setText(datas.get(position).getRange());
-        viewHolder.tvPrice.setText(datas.get(position).getPrice());
-        viewHolder.ivImg.setImageResource(datas.get(position).getImg());
+        viewHolder.tvName.setText(datas.getData().get(position).getName());
+        viewHolder.tvJob.setText(datas.getData().get(position).getTitle());
+        viewHolder.tvRange.setText(datas.getData().get(position).getService_area());
+        viewHolder.tvPrice.setText(datas.getData().get(position).getSalary());
+        Picasso.with(mContext).load(datas.getData().get(position).getHeadimg()).into(viewHolder.ivImg);
 
 
         return convertView;
@@ -77,7 +71,7 @@ public class FindWorkHotTypeDetailAdapter extends BaseAdapter{
     }
 
     public class ViewHolderLotteryStation {
-        private TextView tvName,tvJob,tvRange,tvPrice;
+        private TextView tvName, tvJob, tvRange, tvPrice;
         private ImageView ivImg;
         private RelativeLayout ll;
 

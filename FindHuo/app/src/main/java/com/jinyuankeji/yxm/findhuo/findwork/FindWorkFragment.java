@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -12,20 +13,27 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.BaseFragment;
 import com.jinyuankeji.yxm.findhuo.findwork.declare_new.FindWorkDeclareNewAdapter;
-import com.jinyuankeji.yxm.findhuo.findwork.declare_new.FindWorkDeclareNewBean;
 import com.jinyuankeji.yxm.findhuo.findwork.declare_new.declare_new_detail.FindWorkNewDetailActivity;
 import com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_main_gv.FindWorkHotAdapter;
 import com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_main_gv.FindWorkHotBean;
 import com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_detail.hot_type_detail_one.FindWorkHotTypeDetailActivity;
 import com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_detail.findcar.findcar_one.FindWorkHotTypeTaxiDetailActivity;
-import com.jinyuankeji.yxm.findhuo.lottery.LotteryViewPagerAdapter;
 import com.jinyuankeji.yxm.findhuo.tools.DataValue;
 import com.jinyuankeji.yxm.findhuo.tools.SVG;
 import com.jinyuankeji.yxm.findhuo.tools.SVL;
+import com.jinyuankeji.yxm.findhuo.tools.URLValue;
+import com.lidroid.xutils.HttpUtils;
+import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.RequestParams;
+import com.lidroid.xutils.http.ResponseInfo;
+import com.lidroid.xutils.http.callback.RequestCallBack;
+import com.lidroid.xutils.http.client.HttpRequest;
 
 import java.util.ArrayList;
 
@@ -57,11 +65,11 @@ public class FindWorkFragment extends BaseFragment {
 
     private FindWorkDeclareNewAdapter mNewAdapter;
     private FindWorkDeclareNewBean mNewBean;
-    private List<FindWorkDeclareNewBean> mNewBeanList;
+
     private SVL mLv;
 
     private FindWorkHotAdapter mHotAdapter;
-    private List<FindWorkHotBean> mHotBeanList;
+
     private SVG mGv;
 
     private int img[] = {R.mipmap.mechanic3x, R.mipmap.salesman3x, R.mipmap.employee3x, R.mipmap.teacher3x, R.mipmap.translator3x,
@@ -98,52 +106,29 @@ public class FindWorkFragment extends BaseFragment {
     protected void initData() {
         scrollView.scrollTo(0, 0);
 
+        mNewBean = new FindWorkDeclareNewBean();
         myAdapter = new FindWorkeViewPagerAdapter(getActivity());
         images = new ArrayList<>();
-        images.add(0, R.mipmap.ic_launcher);
-        images.add(1, R.mipmap.btn_pay_selected3x);
-        images.add(2, R.mipmap.btn_pay_selected3x);
+        requestFind();
         initViewPager();
-
-
         mNewAdapter = new FindWorkDeclareNewAdapter(getActivity());
-        mNewBeanList = new ArrayList<>();
-        final FindWorkDeclareNewBean newBean = new FindWorkDeclareNewBean();
-        for (int i = 0; i < 3; i++) {
-            newBean.setRange("大东区");
-            newBean.setName("张三");
-            newBean.setJob("保洁");
-            newBean.setPrice("1000");
-            newBean.setImg(R.mipmap.btn_pay_selected3x);
-            mNewBeanList.add(newBean);
-        }
-        mNewAdapter.setDatas(mNewBeanList);
-        mLv.setAdapter(mNewAdapter);
         mLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                DataValue.FINDHUO_DETAIL_NOR = mNewBeanList.get(position).getName();
+                DataValue.FINDHUO_DETAIL_NOR = mNewBean.getIntroduce().get(position).getName();
+                DataValue.FINDWORK_OR_FINDCAR_ID = mNewBean.getIntroduce().get(position).getId_introduce();
                 Intent intent = new Intent(getActivity(), FindWorkNewDetailActivity.class);
                 startActivity(intent);
             }
         });
 
         mHotAdapter = new FindWorkHotAdapter(getActivity());
-        mHotBeanList = new ArrayList<>();
-        FindWorkHotBean hotBean = new FindWorkHotBean();
-
-//        for (int i = 0; i < str.length; i++) {
-//            hotBean.setName("技工",0);
-//            Log.d("FindWorkFragment", hotBean.getName());
-//            hotBean.setImg(R.mipmap.mechanic3x,0);
         final List<Map<String, Object>> mHotBeanList = new ArrayList<Map<String, Object>>();
-
 
         for (int i = 0; i < str.length; i++) {
             Map<String, Object> map = new HashMap<>();
             map.put("image", imgFind[i]);
             map.put("title", strFind[i]);
-
             mHotBeanList.add(map);
         }
 
@@ -153,9 +138,16 @@ public class FindWorkFragment extends BaseFragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Map<String, Object> map = mHotBeanList.get(position);
+                DataValue.FINDWORK_TYPE_ID = mNewBean.getIcon().get(position).getId_icon();
                 DataValue.FINDWORK_TYPE_TV = map.get("title") + "";
-                Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
-                startActivity(intent);
+                if (DataValue.FINDWORK_TYPE_TV.equals("心理咨询")) {
+                    Intent intent = new Intent(getActivity(), FindWorkHotTypeTaxiDetailActivity.class);
+                    DataValue.FINDWORK_TYPE_TV_OR = "心理咨询";
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
+                    startActivity(intent);
+                }
             }
         });
 
@@ -171,24 +163,14 @@ public class FindWorkFragment extends BaseFragment {
 
                 if (DataValue.FINDWORK_SELECT_TAG.equals("干零活")) {
                     mNewAdapter = new FindWorkDeclareNewAdapter(getActivity());
-                    mNewBeanList = new ArrayList<>();
-                    FindWorkDeclareNewBean newBean = new FindWorkDeclareNewBean();
-                    for (int i = 0; i < 3; i++) {
-                        newBean.setRange("大东区");
-                        newBean.setName("张张六");
-                        newBean.setJob("清洁工");
-                        newBean.setPrice("1000");
-                        newBean.setImg(R.mipmap.btn_pay_selected3x);
-                        mNewBeanList.add(newBean);
-                    }
-                    mNewAdapter.setDatas(mNewBeanList);
-                    mLv.setAdapter(mNewAdapter);
+                    requestDo();
+                    initViewPager();
                     mNewAdapter.notifyDataSetChanged();
                     mLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-                            DataValue.FINDHUO_DETAIL_NOR = mNewBeanList.get(position).getName();
+                            DataValue.FINDHUO_DETAIL_NOR = mNewBean.getIntroduce().get(position).getName();
+                            DataValue.FINDWORK_OR_FINDCAR_ID = mNewBean.getIntroduce().get(position).getId_introduce();
                             Intent intent = new Intent(getActivity(), FindWorkNewDetailActivity.class);
                             startActivity(intent);
 //                            }
@@ -196,7 +178,6 @@ public class FindWorkFragment extends BaseFragment {
                     });
 
                     mHotAdapter = new FindWorkHotAdapter(getActivity());
-//                    mHotBeanList = new ArrayList<>();
                     FindWorkHotBean hotBean = new FindWorkHotBean();
                     final List<Map<String, Object>> mHotBeanList = new ArrayList<Map<String, Object>>();
                     // 将上述资源转化为list集合
@@ -207,16 +188,17 @@ public class FindWorkFragment extends BaseFragment {
 
                         mHotBeanList.add(map);
                     }
-
                     mHotAdapter.setListitem(mHotBeanList);
                     mGv.setAdapter(mHotAdapter);
                     mGv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                            DataValue.FINDWORK_TYPE_ID = mNewBean.getIcon().get(position).getId_icon();
                             Map<String, Object> map = mHotBeanList.get(position);
                             DataValue.FINDWORK_TYPE_TV = map.get("title") + "";
                             if (DataValue.FINDWORK_TYPE_TV.equals("找车")) {
                                 Intent intent = new Intent(getActivity(), FindWorkHotTypeTaxiDetailActivity.class);
+                                DataValue.FINDWORK_TYPE_TV_OR = "找车";
                                 startActivity(intent);
                             } else {
                                 Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
@@ -236,56 +218,44 @@ public class FindWorkFragment extends BaseFragment {
                 tvDoWork.setTextColor(Color.WHITE);
                 tvFindWork.setTextColor(0xff58bbb8);
                 DataValue.FINDWORK_SELECT_TAG = "找零工";
-
                 if (DataValue.FINDWORK_SELECT_TAG.equals("找零工")) {
                     mNewAdapter = new FindWorkDeclareNewAdapter(getActivity());
-                    mNewBeanList = new ArrayList<>();
-                    FindWorkDeclareNewBean newBean = new FindWorkDeclareNewBean();
-                    for (int i = 0; i < 3; i++) {
-                        newBean.setRange("大东区");
-                        newBean.setName("张三");
-                        newBean.setJob("保洁");
-                        newBean.setPrice("1000");
-                        newBean.setImg(R.mipmap.btn_pay_selected3x);
-                        mNewBeanList.add(newBean);
-                    }
-                    mNewAdapter.setDatas(mNewBeanList);
+                    mNewAdapter.setDatas(DataValue.FINDWORK_FINDHUO_MAINPAGE);
                     mLv.setAdapter(mNewAdapter);
                     mLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-                            DataValue.FINDHUO_DETAIL_NOR = mNewBeanList.get(position).getName();
+                            DataValue.FINDHUO_DETAIL_NOR = mNewBean.getIntroduce().get(position).getName();
+                            DataValue.FINDWORK_OR_FINDCAR_ID = mNewBean.getIntroduce().get(position).getId_introduce();
                             Intent intent = new Intent(getActivity(), FindWorkNewDetailActivity.class);
                             startActivity(intent);
                         }
                     });
 
                     mHotAdapter = new FindWorkHotAdapter(getActivity());
-//                    mHotBeanList = new ArrayList<>();
-                    FindWorkHotBean hotBean = new FindWorkHotBean();
-
-
                     final List<Map<String, Object>> mHotBeanList = new ArrayList<Map<String, Object>>();
-
-
                     for (int i = 0; i < str.length; i++) {
                         Map<String, Object> map = new HashMap<>();
                         map.put("image", imgFind[i]);
                         map.put("title", strFind[i]);
-
                         mHotBeanList.add(map);
                     }
-
                     mHotAdapter.setListitem(mHotBeanList);
                     mGv.setAdapter(mHotAdapter);
                     mGv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                             Map<String, Object> map = mHotBeanList.get(position);
+                            DataValue.FINDWORK_TYPE_ID = mNewBean.getIcon().get(position).getId_icon();
                             DataValue.FINDWORK_TYPE_TV = map.get("title") + "";
-                            Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
-                            startActivity(intent);
+                            if (DataValue.FINDWORK_TYPE_TV.equals("心理咨询")) {
+                                Intent intent = new Intent(getActivity(), FindWorkHotTypeTaxiDetailActivity.class);
+                                DataValue.FINDWORK_TYPE_TV_OR = "心理咨询";
+                                startActivity(intent);
+                            } else {
+                                Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
+                                startActivity(intent);
+                            }
                         }
                     });
                 }
@@ -297,10 +267,6 @@ public class FindWorkFragment extends BaseFragment {
 
 
     private void initViewPager() {
-        myAdapter.setImages(images);
-        myAdapter.setViewPager(viewPagerBanner);
-        viewPagerBanner.setAdapter(myAdapter);
-
         handler = new Handler(new Handler.Callback() {
             @Override
             public boolean handleMessage(Message msg) {
@@ -355,5 +321,112 @@ public class FindWorkFragment extends BaseFragment {
         }
 
         myAdapter.setTips(tips);
+    }
+
+    //我要找零工
+    private void requestFind() {
+        HttpUtils httpUtils = new HttpUtils();
+
+        RequestParams params = new RequestParams();
+        params.addBodyParameter("section", "3");
+        params.addBodyParameter("type", "1");
+        params.addBodyParameter("city", DataValue.LOCATION);
+        params.addBodyParameter("size", "2");
+        params.addBodyParameter("icontype", "3");
+
+        Log.d("tttttttt", URLValue.URL_NOR + URLValue.URL_FINDWORK + params);
+        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + URLValue.URL_FINDWORK, params,
+                new RequestCallBack<String>() {
+                    @Override
+                    public void onFailure(HttpException arg0, String arg1) {
+                        Log.i("请求失败", "3333333333333333333333 error: " + arg1.toString());
+                    }
+
+                    @Override
+                    public void onSuccess(ResponseInfo<String> arg0) {
+                        Log.e("请求成功找零工", "111111111111111111111111111111 onSuccess" + arg0.result.toString());
+                        String json = arg0.result.toString();
+                        if (json.length() == 0) {
+                        } else {
+                            Gson gson = new Gson();
+                            mNewBean = gson.fromJson(json, FindWorkDeclareNewBean.class);
+                            if (mNewBean == null) {
+                                Log.d("LotteryFragment", "实体类为null");
+                            } else if (mNewBean.getRes() == 10001) {
+
+                                Log.d("DeclareActivity", mNewBean.getSlider().get(0).getImgurl());
+                                DataValue.FINDWORK_FINDHUO_MAINPAGE = mNewBean;
+                                myAdapter.setImages(mNewBean);
+                                myAdapter.setViewPager(viewPagerBanner);
+                                viewPagerBanner.setAdapter(myAdapter);
+                                mNewAdapter.setDatas(mNewBean);
+                                mLv.setAdapter(mNewAdapter);
+
+                            } else if (mNewBean.getRes() == 10002) {
+                                Toast.makeText(getActivity(), "暂时无数据", Toast.LENGTH_SHORT).show();
+                            } else if (mNewBean.getRes() == 10000) {
+                                Toast.makeText(getActivity(), "请求失败", Toast.LENGTH_SHORT).show();
+                            } else if (mNewBean.getRes() == 10003) {
+                                Toast.makeText(getActivity(), "暂时无数据", Toast.LENGTH_SHORT).show();
+                            } else if (mNewBean.getRes() == 10004) {
+                                Toast.makeText(getActivity(), "行业分类暂时无数据", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    }
+                });
+
+    }
+
+
+    //我要干零活
+    private void requestDo() {
+        HttpUtils httpUtils = new HttpUtils();
+
+        final RequestParams params = new RequestParams();
+        params.addBodyParameter("section", "2");
+        params.addBodyParameter("type", "2");
+        params.addBodyParameter("city", DataValue.LOCATION);
+        params.addBodyParameter("size", "2");
+        params.addBodyParameter("icontype", "2");
+
+        Log.d("tttttttt", URLValue.URL_NOR + URLValue.URL_FINDWORK + params);
+        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + URLValue.URL_FINDWORK, params,
+                new RequestCallBack<String>() {
+                    @Override
+                    public void onFailure(HttpException arg0, String arg1) {
+                        Log.i("请求失败", "3333333333333333333333 error: " + arg1.toString());
+                    }
+
+                    @Override
+                    public void onSuccess(ResponseInfo<String> arg0) {
+                        Log.e("请求成功找零工", "111111111111111111111111111111 onSuccess" + arg0.result.toString());
+                        String json = arg0.result.toString();
+                        if (json.length() == 0) {
+                        } else {
+                            Gson gson = new Gson();
+                            mNewBean = gson.fromJson(json, FindWorkDeclareNewBean.class);
+                            if (mNewBean == null) {
+                                Log.d("LotteryFragment", "实体类为null");
+                            } else if (mNewBean.getRes() == 10001) {
+                                Log.d("DeclareActivity", mNewBean.getSlider().get(0).getImgurl());
+                                DataValue.FINDWORK_FINDHUO_MAINPAGE = mNewBean;
+
+                                myAdapter.setImages(mNewBean);
+                                myAdapter.setViewPager(viewPagerBanner);
+                                viewPagerBanner.setAdapter(myAdapter);
+                                mNewAdapter.setDatas(mNewBean);
+                                mLv.setAdapter(mNewAdapter);
+                            } else if (mNewBean.getRes() == 10002) {
+                                Toast.makeText(getActivity(), "暂时无数据", Toast.LENGTH_SHORT).show();
+                            } else if (mNewBean.getRes() == 10000) {
+                                Toast.makeText(getActivity(), "请求失败", Toast.LENGTH_SHORT).show();
+                            } else if (mNewBean.getRes() == 10003) {
+                                Toast.makeText(getActivity(), "暂时无数据", Toast.LENGTH_SHORT).show();
+                            } else if (mNewBean.getRes() == 10004) {
+                                Toast.makeText(getActivity(), "行业分类暂时无数据", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    }
+                });
     }
 }

@@ -12,7 +12,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMMessage;
@@ -20,7 +22,16 @@ import com.hyphenate.exceptions.HyphenateException;
 import com.jinyuankeji.yxm.findhuo.LoginActivity;
 import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.BaseActivity;
+import com.jinyuankeji.yxm.findhuo.lottery.LotteryViewPagerBean;
 import com.jinyuankeji.yxm.findhuo.tools.DataValue;
+import com.jinyuankeji.yxm.findhuo.tools.URLValue;
+import com.lidroid.xutils.HttpUtils;
+import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.RequestParams;
+import com.lidroid.xutils.http.ResponseInfo;
+import com.lidroid.xutils.http.callback.RequestCallBack;
+import com.lidroid.xutils.http.client.HttpRequest;
+import com.squareup.picasso.Picasso;
 
 
 /**
@@ -31,7 +42,9 @@ public class LotteryDetailActivity extends BaseActivity {
     private ImageView back;
     private TextView tvChat;
     private Button btnExit;
-
+    private LotteryDetailBean mBean;
+    private TextView tvName,tvAddr,tvTel,tvHeBug,tvPrice,tvJindu,tvContent;
+private ImageView ivImg;
 
     @Override
     protected int initLayout() {
@@ -44,6 +57,15 @@ public class LotteryDetailActivity extends BaseActivity {
         back = (ImageView) findViewById(R.id.lottery_detail_more_back);
         tvChat = (TextView) findViewById(R.id.iv_lottery_detail_chat_icon);
         btnExit = (Button) findViewById(R.id.exit);
+
+        tvName = (TextView) findViewById(R.id.tv_lottery_detail_station_name);
+        tvAddr = (TextView) findViewById(R.id.tv_lottery_detail_station_addr);
+        tvTel = (TextView) findViewById(R.id.tv_lottery_detail_station_tel);
+        tvHeBug = (TextView) findViewById(R.id.tv_lottery_detail_station_priceall);
+        tvPrice = (TextView) findViewById(R.id.tv_lottery_detail_station_price_oneperson);
+        tvJindu = (TextView) findViewById(R.id.tv_lottery_detail_station_price_step);
+        tvContent = (TextView) findViewById(R.id.tv_lottery_detail_station_football);
+        ivImg = (ImageView) findViewById(R.id.iv_lottery_detail_head);
     }
 
    private String firendName;
@@ -95,6 +117,9 @@ public class LotteryDetailActivity extends BaseActivity {
             }
         });
 
+        mBean = new LotteryDetailBean();
+        request();
+
     }
 
 
@@ -137,5 +162,51 @@ public class LotteryDetailActivity extends BaseActivity {
         });
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+    }
+
+
+    private void request() {
+        HttpUtils httpUtils = new HttpUtils();
+        RequestParams params = new RequestParams();
+        Log.d("LotteryDetailActivity", DataValue.LOTTERY_MAIN_ID);
+        params.addBodyParameter("id_lottery", DataValue.LOTTERY_MAIN_ID);
+//        params.addBodyParameter("lottery", DataValue.LOCATION);
+
+        Log.d("tttttttt", URLValue.URL_NOR + URLValue.URL_LOTTERY_DEYAIL);
+        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + URLValue.URL_LOTTERY_DEYAIL, params,
+                new RequestCallBack<String>() {
+                    @Override
+                    public void onFailure(HttpException arg0, String arg1) {
+                        Log.i("请求失败", "3333333333333333333333 error: " + arg1.toString());
+                    }
+
+                    @Override
+                    public void onSuccess(ResponseInfo<String> arg0) {
+                        Log.e("ahhhh请求成功", "111111111111111111111111111111 onSuccess" + arg0.result.toString());
+                        String json = arg0.result.toString();
+                        if (json.length() == 0) {
+                        } else {
+                            Gson gson = new Gson();
+                            mBean = gson.fromJson(json, LotteryDetailBean.class);
+                            if (mBean == null) {
+                                Log.d("LotteryFragment", "实体类为null");
+                            } else if (mBean.getRes() == 10001){
+                                tvName.setText(mBean.getData().getLotteryname());
+                                tvAddr.setText(mBean.getData().getAddress());
+                                tvTel.setText(mBean.getData().getTel());
+                                tvHeBug.setText(mBean.getData().getSummary1());
+                                tvPrice.setText(mBean.getData().getSummary2());
+                                tvJindu.setText(mBean.getData().getSummary3());
+                                tvContent.setText(mBean.getData().getContent());
+                                Picasso.with(LotteryDetailActivity.this).load(mBean.getData().getImg()).into(ivImg);
+
+                            }else if (mBean.getRes() == 10002){
+                                Toast.makeText(LotteryDetailActivity.this, "暂时无数据", Toast.LENGTH_SHORT).show();
+                            }else if (mBean.getRes() == 10000){
+                                Toast.makeText(LotteryDetailActivity.this, "请求失败", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    }
+                });
     }
 }

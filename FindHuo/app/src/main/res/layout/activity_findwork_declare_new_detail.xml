@@ -66,54 +66,54 @@
         android:layout_marginTop="14dp"
         android:text="性别"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="|"
-        android:id="@+id/tv_findwork_declare_new_detail_line"
-        android:layout_toRightOf="@id/tv_findwork_new_detail_sex"
-        android:layout_marginLeft="5dp"
-        android:textColor="@color/colorLotteryDetail"
-        android:textSize="15sp"
-        android:layout_alignTop="@id/tv_findwork_new_detail_sex"/>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="|"-->
+        <!--android:id="@+id/tv_findwork_declare_new_detail_line"-->
+        <!--android:layout_toRightOf="@id/tv_findwork_new_detail_sex"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:textColor="@color/colorLotteryDetail"-->
+        <!--android:textSize="15sp"-->
+        <!--android:layout_alignTop="@id/tv_findwork_new_detail_sex"/>-->
 
-    <TextView
-        android:id="@+id/tv_findwork_new_detail_age"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-       android:layout_alignTop="@id/tv_findwork_new_detail_sex"
-        android:layout_toRightOf="@id/tv_findwork_declare_new_detail_line"
-        android:layout_marginLeft="5dp"
-        android:textColor="@color/colorLotteryDetail"
-        android:textSize="15sp"
-        android:text="年龄"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="|"
-        android:textColor="@color/colorLotteryDetail"
-        android:textSize="15sp"
-        android:id="@+id/tv_findwork_declare_new_detail_line2"
-        android:layout_toRightOf="@id/tv_findwork_new_detail_age"
-        android:layout_marginLeft="5dp"
-        android:layout_alignTop="@id/tv_findwork_new_detail_sex"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="经验"
-        android:textColor="@color/colorLotteryDetail"
-        android:textSize="15sp"
-        android:id="@+id/tv_findwork_declare_new_detail_exprice"
-        android:layout_alignTop="@id/tv_findwork_new_detail_sex"
-        android:layout_toRightOf="@id/tv_findwork_declare_new_detail_line2"
-        android:layout_marginLeft="5dp"/>
+    <!--<TextView-->
+        <!--android:id="@+id/tv_findwork_new_detail_age"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+       <!--android:layout_alignTop="@id/tv_findwork_new_detail_sex"-->
+        <!--android:layout_toRightOf="@id/tv_findwork_declare_new_detail_line"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:textColor="@color/colorLotteryDetail"-->
+        <!--android:textSize="15sp"-->
+        <!--android:text="年龄"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="|"-->
+        <!--android:textColor="@color/colorLotteryDetail"-->
+        <!--android:textSize="15sp"-->
+        <!--android:id="@+id/tv_findwork_declare_new_detail_line2"-->
+        <!--android:layout_toRightOf="@id/tv_findwork_new_detail_age"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_alignTop="@id/tv_findwork_new_detail_sex"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="经验"-->
+        <!--android:textColor="@color/colorLotteryDetail"-->
+        <!--android:textSize="15sp"-->
+        <!--android:id="@+id/tv_findwork_declare_new_detail_exprice"-->
+        <!--android:layout_alignTop="@id/tv_findwork_new_detail_sex"-->
+        <!--android:layout_toRightOf="@id/tv_findwork_declare_new_detail_line2"-->
+        <!--android:layout_marginLeft="5dp"/>-->
 
     <TextView
         android:id="@+id/tv_findwork_new_detail_salary_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/tv_findwork_new_detail_name"
-        android:layout_below="@id/tv_findwork_new_detail_age"
+        android:layout_below="@id/tv_findwork_new_detail_sex"
         android:text="薪资："
         android:layout_marginTop="14dp"
         android:textColor="@color/colorLotteryDetail"
@@ -124,7 +124,7 @@
         android:id="@+id/tv_findwork_new_detail_se"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_findwork_new_detail_age"
+        android:layout_below="@id/tv_findwork_new_detail_sex"
         android:layout_toRightOf="@id/tv_findwork_new_detail_salary_tv"
         android:text="面议"
         android:layout_marginTop="14dp"
@@ -139,7 +139,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
         android:layout_below="@id/iv_findwork_detail_new_detail_head"
-        android:text="服务内容："
+        android:text="标       题："
         android:textColor="@color/colorLotteryDetail"
         android:textSize="15sp"/>
 
@@ -158,8 +158,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_below="@id/tv_findwork_declare_new_detail_content_tv"
-        android:text="服务范围："
+        android:layout_below="@id/tv_findwork_new_detail_content"
+        android:text="地       址："
         android:layout_marginTop="14dp"
         android:textColor="@color/colorLotteryDetail"
         android:textSize="15sp"/>
@@ -202,7 +202,6 @@ android:layout_marginLeft="20dp"
         android:layout_height="wrap_content"
        android:layout_toRightOf="@id/tv_findwork_new_detail_call_tv"
         android:layout_alignTop="@id/tv_findwork_new_detail_call_tv"
-
         android:layout_marginRight="20dp"
         android:src="@mipmap/tel_iconlan3x"
         android:layout_alignBottom="@id/tv_findwork_new_detail_call_tv"
@@ -215,7 +214,7 @@ android:layout_marginLeft="20dp"
         android:layout_below="@id/ll_findwork_new_detail_fenge"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="工作内容描述："
+        android:text="服务内容描述："
         android:textColor="@color/colorLotteryDetail"
         android:textSize="15sp"/>
 

@@ -79,7 +79,9 @@
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_one.FindWorkHotTypeTaxiDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_detail_two.FindWorkHotTypeFindCarDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.psychological.FindWorkHotTypePsychologicalDetailActivity"/>
-
+<activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_one.SearchFindCarActivity"
+          android:windowSoftInputMode="stateHidden|adjustResize"
+    />
         <activity android:name=".MainActivity"/>
 
 

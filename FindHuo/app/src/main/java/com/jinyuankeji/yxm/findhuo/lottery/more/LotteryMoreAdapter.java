@@ -10,9 +10,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.jinyuankeji.yxm.findhuo.R;
-import com.jinyuankeji.yxm.findhuo.lottery.LotteryStationBean;
-
-import java.util.ArrayList;
+import com.jinyuankeji.yxm.findhuo.lottery.LotteryViewPagerBean;
+import com.squareup.picasso.Picasso;
 
 /**
  * Created by yxiaomin on 2016/12/19 0019.
@@ -20,32 +19,29 @@ import java.util.ArrayList;
 
 public class LotteryMoreAdapter extends BaseAdapter{
     private Context mContext;
-    private LotteryStationBean stationBean;
-    private ArrayList<LotteryStationBean> datas;
+    private MoreBean stationBean;
+
 
 
     public LotteryMoreAdapter(Context context) {
         mContext = context;
     }
 
-    public void setStationBeanList(ArrayList<LotteryStationBean> stationBeanList) {
-        this.datas = stationBeanList;
-        notifyDataSetChanged();
-    }
 
-    public void setStationBean(LotteryStationBean stationBean) {
+
+    public void setStationBean(MoreBean stationBean) {
         this.stationBean = stationBean;
         notifyDataSetChanged();
     }
 
     @Override
     public int getCount() {
-        return datas != null && datas.size() > 0 ? datas.size() : 0;
+        return  stationBean.getData()!= null &&  stationBean.getData().size() > 0 ?  stationBean.getData().size() : 0;
     }
 
     @Override
     public Object getItem(int position) {
-        return datas == null ? null : datas.size();
+        return  stationBean.getData() == null ? null :  stationBean.getData().size();
     }
 
     @Override
@@ -65,9 +61,9 @@ public class LotteryMoreAdapter extends BaseAdapter{
             viewHolder = (ViewHolderLotteryStation) convertView.getTag();
         }
 
-        viewHolder.tvName.setText(datas.get(position).getNamr());
-        viewHolder.tvAddr.setText(datas.get(position).getAddr());
-        viewHolder.ivImg.setImageResource(datas.get(position).getImg());
+        viewHolder.tvName.setText( stationBean.getData().get(position).getLotteryname());
+        viewHolder.tvAddr.setText( stationBean.getData().get(position).getAddress());
+        Picasso.with(mContext).load( stationBean.getData().get(position).getImgsmall()).into(viewHolder.ivImg);
         return convertView;
 
     }

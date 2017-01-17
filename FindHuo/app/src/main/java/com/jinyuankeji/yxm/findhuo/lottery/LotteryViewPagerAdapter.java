@@ -26,8 +26,6 @@ public class LotteryViewPagerAdapter extends PagerAdapter implements ViewPager.O
     private ViewPager viewPager;
     private ImageView[] tips;
 
-    private LotteryViewPagerBean mViewPagerBean;
-
     public void setTips(ImageView[] tips) {
         this.tips = tips;
     }
@@ -58,11 +56,12 @@ public class LotteryViewPagerAdapter extends PagerAdapter implements ViewPager.O
 
     @Override
     public Object instantiateItem(final ViewGroup container, final int position) {
+
         View view = LayoutInflater.from(context).inflate(R.layout.fragment_lottery_banner_item,null);
         ImageView imageView = (ImageView) view.findViewById(R.id.image_view);
 //        imageView.setImageResource(images.get(position % images.size()));
-        Log.d("LotteryViewPagerAdapter", images.get(position % images.size()).getImgurl());
-        Picasso.with(context).load(images.get(position % images.size()).getImgurl()).into(imageView);
+        Log.d("LotteryViewPagerAdapter", images.get(position % images.size()).getSlider().get(position % images.size()).getImgurl());
+        Picasso.with(context).load(images.get(position % images.size()).getSlider().get(position % images.size()).getImgurl()).into(imageView);
 
         container.addView(view);
         viewPager.addOnPageChangeListener(this);
