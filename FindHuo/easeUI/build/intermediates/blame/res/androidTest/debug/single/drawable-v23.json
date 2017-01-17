@@ -1,5 +1,20 @@
 [
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "D:\\1\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\1\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+>>>>>>> 919d2ed257fc12c72da23347c871c5207fe70c57
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
     }

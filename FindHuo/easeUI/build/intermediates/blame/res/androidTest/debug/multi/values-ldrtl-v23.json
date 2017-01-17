@@ -22,5 +22,80 @@
                 }
             }
         ]
+<<<<<<< HEAD
+=======
+    },
+    {
+        "outputFile": "D:\\1\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "D:\\1\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 112,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 112,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "D:\\demo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 112,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+>>>>>>> 919d2ed257fc12c72da23347c871c5207fe70c57
     }
 ]

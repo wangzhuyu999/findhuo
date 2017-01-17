@@ -2,5 +2,16 @@
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+<<<<<<< HEAD
+=======
+    },
+    {
+        "merged": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\GitHubFindWork\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\1\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\1\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+>>>>>>> 919d2ed257fc12c72da23347c871c5207fe70c57
     }
 ]
