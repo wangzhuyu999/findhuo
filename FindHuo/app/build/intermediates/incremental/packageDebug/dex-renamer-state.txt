@@ -1,7 +1,0 @@
-#Fri Feb 10 16:04:01 CST 2017
-base.0=D\:\\GitHubFingHuoZhuY\\FindHuo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5b8d5f8fbdced593ff91689e43f6463c394d3f33
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\GitHubFingHuoZhuY\\FindHuo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c2c9e466102392816d0933b772886e1cd17dc7dc\\classes.dex
-base.1=D\:\\GitHubFingHuoZhuY\\FindHuo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c2c9e466102392816d0933b772886e1cd17dc7dc
-file.0=D\:\\GitHubFingHuoZhuY\\FindHuo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5b8d5f8fbdced593ff91689e43f6463c394d3f33\\classes.dex
