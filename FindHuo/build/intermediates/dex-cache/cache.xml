@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9ede3dad06a42d0976c29a8f241a74a97014e11">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5b8d5f8fbdced593ff91689e43f6463c394d3f33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\FindHuo\easeUI\unspecified\jars\libs\HwPush_SDK_V2705_nomap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d68d22f9e4842e7ea73a667df0808babf6402704">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\8\HwPush_SDK_V2705_nomap_c0fc97f395d611ab302c59629d1f6c2294ff4e16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_f2072eb3a5f120331ad096c8586808c6b13a8785\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c42b715db1fae1f8ab083bd6be804903a2dc0b3">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c2c9e466102392816d0933b772886e1cd17dc7dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_577f358cf1b4aa33d9721bf274b59e2027b2cf7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_ff911542c10f06361602ba9d6e5892314b0a45b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\libs\AMap_Location_V3.2.0_20161206.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b79e4bf9265148e1e27a4c4af94e44150c44a7df">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_V3.2.0_20161206_b807288dd9d47311787b94bf536c85e81ad5f21c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.11.0_893d7cba6fd833c845f42c6194f7ff7a73716aa7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe75606aa9485cd20177894c204291a79a0cc7ab">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jiechic.library-xUtils-2.6.14_cadc05409c48f10590b26a71244f520193fe2ad1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\FindHuo\easeUI\unspecified\jars\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="49bc2d83ccb0cfe1dbc853e3ba80db0f950ed96d">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_67cb8db0d4aa60e19ff509c6ee629a21bdfbe225\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\FindHuo\easeUI\unspecified\jars\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58ca2fd9380a230afb00512b56878606449efa09">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_395f51e60f929b5670d0702cc6ff80512534cfe1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\FindHuo\easeUI\unspecified\jars\libs\MiPush_SDK_Client_2_2_19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6231c3f3409df7b3172bc5e89f68fbc6beec733e">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\8\MiPush_SDK_Client_2_2_19_db9b5410c5337a20a4548b8649b866b92ecfcf5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.3.2_129daf79aac2b89d04477dd06772606059eeedd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_69d2d3c27627661806f0bd051a18a12cc184adc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\libs\Amap_2DMap_V2.9.3_20161206.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f33a543323d3c7dce047b8cca35d86133286373a">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\2\Amap_2DMap_V2.9.3_20161206_14b3fc32e1668536fa958b103190f10284e9a215\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_3b8e55ef9d8e57c85b1a19c1ee7070b3d42d3f03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\FindHuo\easeUI\unspecified\jars\libs\glide-3.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="015a639bd9933f4f812be8bede14f14bd1bdea8b">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\8\glide-3.6.1_2c60b6b4865f8a06102babc67b259f209c584bea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_f25d486c6b039feba6449ac28f2eb3d9e1d99bc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\FindHuo\easeUI\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc8ba9e80c63fa62ffe4130ae3487a2ec25912ef">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\8\google-play-services_1a96d21685ad5d444384faea7d36234e5def879c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.github.chrisbanes.actionbarpulltorefresh\library\0.9.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="06ca4ea902f14efb76284d918edb085df33cc365">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.chrisbanes.actionbarpulltorefresh-library-0.9.9_c10fbce4fe9a4ada06601d4660886084350b39a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_5727c1eea79f94084bbe7797433e22537ee83e77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_1de4a1771055638215b64279894f9fa02c00b2ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_556068dc9a7cabb46b91899ce44428bbb32c07a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_7ba0e0634520e23bf1619b9a6bd663603b7d9813\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_a2fd15d38ec2ee4aaae58ad93416df9d89f613a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.zhy\mpermission-api\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c025695224d4e573f50b9711d0dd7e2e6da95ae5">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.zhy-mpermission-api-1.0.0_c7cdd9012f1345580400586b585aa268dc83ba63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\FindHuo\easeUI\unspecified\jars\libs\hyphenatechat_3.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2c3c701084f740235fca690a7dfc7dbeabf5142">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\8\hyphenatechat_3.1.4_0255b20da6f9f211950d155e2d5a85319beb40f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_5113dae10b2b9068451828b147787cef46da53f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\0.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ca319f998430aa20c4dde97ba6df213d6cf3dd0">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.castorflex.smoothprogressbar-library-0.4.0_8293a42dca9535286c21875c4ab87e741cb7273f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_2ffe88519841a0a2967100af47aa6d67604a16fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_50bd18bb3e80e2757e0d492fb31a1fef5ce9ed55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.zhy\mpermission-annotation\1.0.0\ad87d60db49aec2397f2c07c229db0886a175dd8\mpermission-annotation-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ad87d60db49aec2397f2c07c229db0886a175dd8">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\mpermission-annotation-1.0.0_c51906c23b84bd27775f080550baacf5541fe29a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="D:\GitHubFingHuoZhuY\FindHuo\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.5.0_c593a7d2ef038914527204d71747c765ea8d1e88\classes.dex" />
+    </item>
+
+</items>

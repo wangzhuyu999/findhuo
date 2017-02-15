@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="27273432570381"
+    token="-768984378889448692"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="3605" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2783" />
+    <task
+        name="verifier"
+        duration="737" />
+
+    <artifact
+        location="D:\GitHubFingHuoZhuY\FindHuo\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="27273432570381"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\GitHubFingHuoZhuY\FindHuo\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
