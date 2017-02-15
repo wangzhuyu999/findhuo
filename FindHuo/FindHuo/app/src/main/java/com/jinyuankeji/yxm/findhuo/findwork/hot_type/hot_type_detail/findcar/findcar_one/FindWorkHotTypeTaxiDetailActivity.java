@@ -219,6 +219,8 @@ public class FindWorkHotTypeTaxiDetailActivity extends BaseActivity {
             }
         });
 
+        mRefreshView.setEnabled(false);
+
     }
 
     private void initViewPager() {

@@ -117,6 +117,7 @@ public class FindWorkHotTypeDetailActivity extends BaseActivity {
                 }, 1200);
             }
         });
+        mSwipePull.setEnabled(false);
 
 
         ivSearch.setOnClickListener(new View.OnClickListener() {
@@ -126,6 +127,7 @@ public class FindWorkHotTypeDetailActivity extends BaseActivity {
                 startActivity(intent);
             }
         });
+
     }
 
     //技工等列表
