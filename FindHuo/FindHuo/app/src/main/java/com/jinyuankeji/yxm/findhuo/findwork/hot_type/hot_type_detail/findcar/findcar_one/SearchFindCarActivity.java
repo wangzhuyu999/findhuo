@@ -52,20 +52,14 @@ public class SearchFindCarActivity extends AppCompatActivity implements SearchVi
 
     private ListView lvResults;
     private SearchView searchView;
-    /**
-     * 热搜框列表adapter
-     */
     private ArrayAdapter<String> hintAdapter;
-    /**
-     * 自动补全列表adapter
-     */
     private ArrayAdapter<String> autoCompleteAdapter;
     /**
      * 搜索结果列表adapter
      */
     private SearchAdapter resultAdapter;
     /**
-     * 数据库数据，总数据
+     * 总数据
      */
     private List<Bean.DataBean> dbData;
     private Bean mBean;
@@ -193,6 +187,7 @@ public class SearchFindCarActivity extends AppCompatActivity implements SearchVi
         //初始化搜索结果数据
         getResultData(null);
 
+
     }
 
     /**
@@ -247,17 +242,13 @@ public class SearchFindCarActivity extends AppCompatActivity implements SearchVi
         if (resultData == null) {
             // 初始化
             Log.d("MainActivity", "null");
-
             resultData = new ArrayList<>();
         } else {
-
             Log.d("MainActivity", "有");
             resultData.clear();
             Log.d("MainActivity", "dbData.size():" + dbData.size());
             for (int i = 0; i < dbData.size(); i++) {
-
                 if (DataValue.FINDWORK_TYPE_TV_OR.equals("心理咨询")) {
-
                     if (dbData.get(i).getName().contains(text.trim())) {
                         resultData.add(dbData.get(i));
                         Log.d("MainActivity", "resultData:" + resultData);
@@ -279,13 +270,11 @@ public class SearchFindCarActivity extends AppCompatActivity implements SearchVi
                         Log.d("MainActivity", "你还能jigong");
                     }
                 }
-
             }
         }
         if (resultAdapter == null) {
             Log.d("MainActivity", "adapter");
             if (DataValue.FINDWORK_TYPE_TV_OR.equals("心理咨询") || DataValue.FINDWORK_TYPE_TV_OR.equals("找车")) {
-
                 resultAdapter = new SearchAdapter(this, resultData, R.layout.activity_findwork_findcar_item);
             } else {
                 resultAdapter = new SearchAdapter(this, resultData, R.layout.fragment_findwork_declare_new_item);
@@ -434,7 +423,6 @@ public class SearchFindCarActivity extends AppCompatActivity implements SearchVi
                         } else {
                             Gson gson = new Gson();
                             mDriverOrNotBean = gson.fromJson(json, DriverOrNotBean.class);
-
                         }
                     }
                 });

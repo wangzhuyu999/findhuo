@@ -10,7 +10,6 @@ import com.jinyuankeji.yxm.findhuo.lottery.more.MoreBean;
  */
 
 public class DataValue {
-
     public static String LOCATION = "";
     public static String FINDWORK_SELECT_TAG = "找零工";
     public static String FINDWORK_TYPE_TV = "";
@@ -40,7 +39,7 @@ public class DataValue {
     //找车刷新次数
     public static int ZHAOCHE_REFSH_I = 0;
     //心理师电话
-    public static String PSYCHOLOGIST_TEL = "";
+    public static String lkl = "";
     //判断是否是司机电话
     public static String DRIVER_YES_OR_NOT_TEL = "18242364815";
     //彩票订单id

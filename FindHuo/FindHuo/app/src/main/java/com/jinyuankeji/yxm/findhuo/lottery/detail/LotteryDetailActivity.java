@@ -134,26 +134,26 @@ public class LotteryDetailActivity extends BaseActivity {
 
 
     private void addFriend() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("添加好友");
-        final EditText newFirendName = new EditText(this);
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        newFirendName.setLayoutParams(layoutParams);
-        newFirendName.setHint("新好友用户名");
-        builder.setView(newFirendName);
-        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        });
-        builder.setPositiveButton("添加", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                new Thread() {
-                    @Override
-                    public void run() {
-                        firendName = newFirendName.getText().toString().trim();
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("添加好友");
+//        final EditText newFirendName = new EditText(this);
+//        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+//        newFirendName.setLayoutParams(layoutParams);
+//        newFirendName.setHint("新好友用户名");
+//        builder.setView(newFirendName);
+//        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//
+//            }
+//        });
+//        builder.setPositiveButton("添加", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                new Thread() {
+//                    @Override
+//                    public void run() {
+                        firendName = tel;
                         try {
                             EMClient.getInstance().contactManager().addContact(firendName, "我是你的朋友");
                             Log.e("", "添加好友成功,等待回应:" + firendName);
@@ -166,15 +166,15 @@ public class LotteryDetailActivity extends BaseActivity {
 
                         Intent intent = new Intent(LotteryDetailActivity.this, LoginActivity.class);
                         startActivity(intent);
-                    }
-                }.start();
-            }
-        });
-        AlertDialog alertDialog = builder.create();
-        alertDialog.show();
+//                    }
+//                }.start();
+//            }
+//        });
+//        AlertDialog alertDialog = builder.create();
+//        alertDialog.show();
     }
 
-
+private  String tel;
     private void request() {
         HttpUtils httpUtils = new HttpUtils();
         RequestParams params = new RequestParams();
@@ -204,6 +204,7 @@ public class LotteryDetailActivity extends BaseActivity {
                                 tvName.setText(mBean.getData().getLotteryname());
                                 tvAddr.setText(mBean.getData().getAddress());
                                 tvTel.setText(mBean.getData().getTel());
+                                tel = mBean.getData().getTel();
                                 tvHeBug.setText(mBean.getData().getSummary1());
                                 tvPrice.setText(mBean.getData().getSummary2());
                                 tvJindu.setText(mBean.getData().getSummary3());
