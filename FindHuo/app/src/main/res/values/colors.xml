@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTitle">#58bbb8</color>
+    <color name="colorLotteryDetail">#302f2f</color>
+    <color name="colorBiao">#eeeeee</color>
+    <color name="colorGray">#757575</color>
+
+    <color name="fontSize">#302f2f</color>
+    <color name="line">#E0E0E0</color>
+    <color name="money">#787878</color>
+    <color name="green">#58bbb8</color>
+    <color name="white">#ffffff</color>
+    <color name="albumback">#E1E0DE</color>
+    <color name="black">#000000</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="none_color">#00000000</color>
+    <color name="grey">#d1d1d1</color>
+    <color name="grey1">#c8c8c8</color>
+    <color name="search_hint_color">#c8c8c8</color>
+
+    <color name="search_txt_color">#706e6e</color>
+
+
+
+
+    <color name="blue">#ffccddff</color>
+
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="navpage">#FFE1E8EB</color>
+</resources>
