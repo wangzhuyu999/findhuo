@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\main\assets"/><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\debug\assets"/></dataSet></merger>
+=======
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main"><source path="D:\1\FindHuo\easeUI\src\main\assets"/><source path="D:\1\FindHuo\easeUI\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\1\FindHuo\easeUI\src\debug\assets"/></dataSet></merger>
+=======
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\main\assets"/><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\debug\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="D:\1\findhuo\FindHuo\easeUI\src\main\assets"/><source path="D:\1\findhuo\FindHuo\easeUI\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\1\findhuo\FindHuo\easeUI\src\debug\assets"/></dataSet></merger>
+>>>>>>> 24de61b4f4f4436c1aa1bb144c6892f90f778682
+>>>>>>> fa2ce3f0d6f9f0912012e572d133a4f6f4e60b17
+>>>>>>> 9907ae0a6e3d8085e670078d646ce627797274f6
