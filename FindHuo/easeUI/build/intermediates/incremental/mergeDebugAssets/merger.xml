@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\main\assets"/><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\debug\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="D:\1\findhuo\FindHuo\easeUI\src\main\assets"/><source path="D:\1\findhuo\FindHuo\easeUI\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\1\findhuo\FindHuo\easeUI\src\debug\assets"/></dataSet></merger>
+>>>>>>> 24de61b4f4f4436c1aa1bb144c6892f90f778682
