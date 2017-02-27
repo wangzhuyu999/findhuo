@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorTitle">
+
+        <ImageView
+            android:id="@+id/tv_findcar_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:src="@mipmap/back_arrow_3x"/>
+
+        <TextView
+            android:id="@+id/tv_findcar_detail_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:text="找车详情"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_findcar_detail_head"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@id/rv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/btn_talk3x"/>
+
+    <TextView
+        android:id="@+id/tv_findcar_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_findcar_detail_head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="孙先生"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_findcar_detail_line"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_below="@id/tv_findcar_name"
+        android:layout_marginTop="15sp"
+        android:background="@color/colorBiao"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_findcar_detail_declare_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_findcar_detail_line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="发布时间:"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_findcar_detail_declare_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_findcar_detail_declare_time_tv"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_findcar_detail_declare_time_tv"
+        android:text="12月"
+        android:textColor="@color/colorGray"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_findcar_detail_start_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_findcar_detail_declare_time_tv"
+        android:layout_below="@id/tv_findcar_detail_declare_time"
+        android:layout_marginTop="15dp"
+        android:text="起点:"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_findcar_detail_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_findcar_detail_start_tv"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_findcar_detail_start_tv"
+        android:text="大东基础上豆腐"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_findcar_detail_end_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_findcar_detail_start_tv"
+        android:layout_below="@id/tv_findcar_detail_start"
+        android:layout_marginTop="15dp"
+        android:text="终点:"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_findcar_detail_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_findcar_detail_end_tv"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_findcar_detail_end_tv"
+        android:text="打动器迪欧放和搜到"
+        android:textColor="@color/colorGray"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_findcar_detail_cal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_findcar_detail_end_tv"
+        android:layout_below="@id/tv_findcar_detail_end"
+        android:layout_marginTop="15dp"
+        android:text="拨打电话:"
+        android:textColor="@color/colorLotteryDetail"
+        android:textSize="15sp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_findcar_detail_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_findcar_detail_cal_tv"
+        android:layout_alignTop="@id/tv_findcar_detail_cal_tv"
+
+        android:layout_toRightOf="@id/tv_findcar_detail_cal_tv"
+        android:paddingLeft="10dp"
+        android:src="@mipmap/tel_iconlan3x"/>
+
+
+</RelativeLayout>
