@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\1\findhuo\FindHuo\easeUI\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\1\findhuo\FindHuo\easeUI\src\release\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\1\FindHuo\easeUI\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\1\FindHuo\easeUI\src\release\shaders"/></dataSet></merger>
