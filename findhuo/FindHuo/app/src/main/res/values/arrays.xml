@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string-array name="industry_array">
+    <item>机构组织</item>
+    <item>农林牧渔 </item>
+    <item>医药卫生</item>
+    <item>建筑建材</item>
+    <item>冶金矿产</item>
+    <item>石油化工</item>
+    <item>水利水电 </item>
+    <item>交通运输</item>
+    <item>信息产业</item>
+    <item>机械机电</item>
+    <item>轻工食品</item>
+    <item>服装纺织 </item>
+    <item>专业服务</item>
+    <item>安全防护</item>
+    <item>环保绿化</item>
+    <item>旅游休闲</item>
+    <item>办公文教 </item>
+    <item>电子电工</item>
+    <item>玩具礼品</item>
+    <item>家居用品</item>
+    <item>物资专材</item>
+    <item>包装用品 </item>
+    <item>体育用品</item>
+    <item>办公家具</item>
+
+</string-array>
+</resources>

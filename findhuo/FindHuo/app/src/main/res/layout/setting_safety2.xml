@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#58bbb8">
+
+        <TextView
+            android:text="验证身份"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:id="@+id/text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:background="@mipmap/back2"
+            android:id="@+id/back" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/fontSize"
+            android:text="手机号："/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="10dp"
+            android:numeric="signed"
+            android:background="@null"
+            android:ems="10"
+            android:id="@+id/phone"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/albumback"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/fontSize"
+            android:text="验证码："/>
+
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@null"
+            android:numeric="signed"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/editText"/>
+
+        <TextView
+            android:text="获取验证码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/money"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:id="@+id/verification"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/albumback"></View>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/confirmpwd_select"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/sure"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTitle">#58bbb8</color>
+    <color name="colorLotteryDetail">#302f2f</color>
+    <color name="colorBiao">#eeeeee</color>
+    <color name="colorGray">#757575</color>
+
+    <color name="fontSize">#302f2f</color>
+    <color name="line">#E0E0E0</color>
+    <color name="money">#787878</color>
+    <color name="green">#58bbb8</color>
+    <color name="white">#ffffff</color>
+    <color name="albumback">#E1E0DE</color>
+    <color name="black">#000000</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="none_color">#00000000</color>
+    <color name="grey">#d1d1d1</color>
+    <color name="grey1">#c8c8c8</color>
+    <color name="search_hint_color">#c8c8c8</color>
+
+    <color name="search_txt_color">#706e6e</color>
+</resources>
