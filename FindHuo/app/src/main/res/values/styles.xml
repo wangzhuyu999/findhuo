@@ -8,7 +8,7 @@
         <item name="colorAccent">#dddddd</item>
         <!-- AppCompatEditText默认状态状态设置底线颜色 -->
     </style>
-<<<<<<< HEAD
+
 
     <!-- Navigation Header -->
     <style name="NavPage">
@@ -18,14 +18,13 @@
         <item name="android:gravity">center_horizontal</item>
         <!-- <item name="android:background">@drawable/nav_page</item> -->
         <item name="android:background">@color/navpage</item>
-=======
+    </style>
     <style name="popwindow_delete_btn_anim_style">
         <item name="android:windowEnterAnimation">@anim/delete_btn_show</item>
         <!-- 指定显示的动画xml -->
         <item name="android:windowExitAnimation">@anim/delete_btn_hide</item>
         <!-- 指定消失的动画xml -->
 
->>>>>>> 24de61b4f4f4436c1aa1bb144c6892f90f778682
     </style>
 
 </resources>

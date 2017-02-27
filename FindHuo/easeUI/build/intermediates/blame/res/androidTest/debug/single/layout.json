@@ -4,12 +4,12 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_received_location.xml"
     },
     {
-        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_received_video.xml",
-        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_received_video.xml"
-    },
-    {
         "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_received_video.xml",
+        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_received_video.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_chat_history.xml",
@@ -36,24 +36,24 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_widget_chat_input_menu.xml"
     },
     {
-        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_received_file.xml",
-        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_received_file.xml"
-    },
-    {
         "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_received_file.xml",
+        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_received_file.xml"
     },
     {
         "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_contact.xml",
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_contact.xml"
     },
     {
-        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_scroll_tab_item.xml",
-        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_scroll_tab_item.xml"
-    },
-    {
         "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_layout_chat_primary_menu.xml",
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_layout_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_scroll_tab_item.xml",
+        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_scroll_tab_item.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_fragment_chat.xml",
@@ -96,16 +96,16 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_chat_history.xml"
     },
     {
-        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_sent_message.xml",
-        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_message.xml"
+        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_chat_menu_item.xml",
+        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_chat_menu_item.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_activity_baidumap.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_activity_baidumap.xml"
     },
     {
-        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_chat_menu_item.xml",
-        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_chat_menu_item.xml"
+        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_sent_message.xml",
+        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_message.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_received_message.xml",
@@ -116,12 +116,12 @@
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
-        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_widget_switch_button.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_widget_switch_button.xml"
+    },
+    {
+        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
@@ -160,12 +160,12 @@
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_received_location.xml"
     },
     {
-        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_sent_voice.xml",
-        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_voice.xml"
-    },
-    {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_widget_chat_primary_menu.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_widget_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_sent_voice.xml",
+        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_voice.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",

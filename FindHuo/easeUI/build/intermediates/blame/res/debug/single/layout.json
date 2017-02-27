@@ -44,12 +44,12 @@
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_widget_contact_list.xml"
     },
     {
-        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar.xml",
-        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_search_bar.xml"
-    },
-    {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_baidumap.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_activity_baidumap.xml"
+    },
+    {
+        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar.xml",
+        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_search_bar.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_conversation_list.xml",
@@ -180,12 +180,12 @@
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_row_contact.xml"
     },
     {
-        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
-        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_chat_message_list.xml"
-    },
-    {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_big_image.xml",
         "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_activity_show_big_image.xml"
+    },
+    {
+        "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
+        "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\layout\\ease_chat_message_list.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",

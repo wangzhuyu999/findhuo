@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\anim\\push_top_in.xml",
-        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\anim\\push_top_in.xml"
-    },
-    {
         "merged": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
         "source": "D:\\WorkJYNew\\find18\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\anim\\push_top_in.xml",
+        "source": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\src\\main\\res\\anim\\push_top_in.xml"
     },
     {
         "merged": "D:\\GitHubFingHuoZhuY\\FindHuo\\FindHuo\\easeUI\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",

@@ -38,4 +38,8 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.5.0'
     compile 'com.github.chrisbanes.actionbarpulltorefresh:library:0.9.9'
     compile files('libs/wechat-sdk-android-with-mta-1.0.2.jar')
+    compile files('libs/universal-image-loader-1.9.2-with-sources.jar')
+
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile 'com.bigkoo:pickerview:1.0.3'
 }
