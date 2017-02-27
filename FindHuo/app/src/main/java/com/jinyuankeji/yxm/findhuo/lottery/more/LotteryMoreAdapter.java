@@ -21,6 +21,10 @@ public class LotteryMoreAdapter extends BaseAdapter{
     private Context mContext;
     private MoreBean stationBean;
 
+    public void addData(MoreBean hotspotBean) {
+        stationBean.getData().addAll(hotspotBean.getData());
+        notifyDataSetChanged();
+    }
 
 
     public LotteryMoreAdapter(Context context) {

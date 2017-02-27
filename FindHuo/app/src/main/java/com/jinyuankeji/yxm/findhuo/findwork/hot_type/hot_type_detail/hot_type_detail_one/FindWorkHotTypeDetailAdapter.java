@@ -24,6 +24,11 @@ public class FindWorkHotTypeDetailAdapter extends BaseAdapter {
     private Context mContext;
     private FinfWorkHotTypeDetailBean datas;
 
+    public void addData(FinfWorkHotTypeDetailBean hotspotBean) {
+        datas.getData().addAll(hotspotBean.getData());
+        notifyDataSetChanged();
+    }
+
     public FindWorkHotTypeDetailAdapter(Context context) {
         mContext = context;
     }

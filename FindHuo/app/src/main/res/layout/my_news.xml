@@ -31,18 +31,29 @@
 
     </RelativeLayout>
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <com.jinyuankeji.yxm.findhuo.tools.SVR
-            android:id="@+id/rv_lottery"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scrollbars="none"
-            android:layout_marginTop="5dp"/>
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
 
-    </ScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/fontSize"
+                android:textSize="16sp"
+                android:text="您于2016年10月27日购买的彩票已出票"/>
 
-
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line"></View>
+    </LinearLayout>
 
 </LinearLayout>

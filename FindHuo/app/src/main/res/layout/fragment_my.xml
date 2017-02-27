@@ -96,6 +96,7 @@
             android:layout_alignParentStart="true" />
 
         <TextView
+            android:text="20元"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="11dp"
@@ -169,7 +170,35 @@
             android:layout_alignParentStart="true" />
     </RelativeLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Psychological">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:background="@mipmap/back"
+            android:id="@+id/textView10" />
+
+        <TextView
+            android:text="我的心理咨询"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/fontSize"
+            android:textSize="16sp"
+            android:id="@+id/textView9"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
 
     <View
         android:layout_width="match_parent"
@@ -217,11 +246,5 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:background="@mipmap/my_login"/>
-
-    <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button6" />
 
 </LinearLayout>

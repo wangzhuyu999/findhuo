@@ -24,7 +24,7 @@
         android:layout_marginLeft="15dp"
         android:textColor="@color/colorLotteryDetail"
         android:layout_toRightOf="@id/iv_findworke_declare_new_head"
-        android:text="name"/>
+        android:text="."/>
 
     <TextView
         android:id="@+id/tv_findwork_declare_new_job"
@@ -35,7 +35,7 @@
         android:textSize="16sp"
         android:textColor="@color/colorLotteryDetail"
         android:layout_toRightOf="@id/tv_findwork_declare_new_name"
-        android:text="家电维修保养"/>
+        android:text="."/>
 
     <TextView
         android:id="@+id/tv_findwork_declare_new_range_tv"
@@ -54,10 +54,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="15dp"
         android:layout_below="@id/tv_findwork_declare_new_name"
         android:layout_toRightOf="@id/tv_findwork_declare_new_range_tv"
-        android:text="大东区及周边"
+        android:text="."
         />
 
     <TextView

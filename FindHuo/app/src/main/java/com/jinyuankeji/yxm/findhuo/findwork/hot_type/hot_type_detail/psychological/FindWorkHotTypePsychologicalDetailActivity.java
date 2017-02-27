@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.jinyuankeji.yxm.findhuo.R;
 import com.jinyuankeji.yxm.findhuo.base.BaseActivity;
+import com.jinyuankeji.yxm.findhuo.findwork.declare_new.declare_new_detail.FindWorkNewDetailActivity;
 import com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_detail.findcar.findcar_one.FindWorkHotTypeTaxiDetailActivity;
 import com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_detail.findcar.findcar_one.FindWorkHotTypeTaxiDetailLVBean;
 import com.jinyuankeji.yxm.findhuo.tools.DataValue;
@@ -23,15 +24,16 @@ import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest;
 import com.squareup.picasso.Picasso;
 
+import static com.jinyuankeji.yxm.findhuo.findwork.declare_new.declare_new_detail.FindWorkNewDetailActivity.isPhoneNumberValid;
+
 /**
  * Created by  yxiaomin on 2017/1/4 0004.
  */
 public class FindWorkHotTypePsychologicalDetailActivity extends BaseActivity {
     private ImageView ivBack;
-    private TextView tvTitle,tvName,tvSex,tvQQ,tvWeChat,tvDo,tvQuestion;
-    private ImageView ivTel,ivHead;
+    private TextView tvTitle, ivTel,tvName, tvSex, tvQQ, tvWeChat, tvDo, tvQuestion;
+    private ImageView  ivHead;
     private PsychologistDetailBean mPsychologistDetailBean;
-
 
 
     @Override
@@ -43,7 +45,7 @@ public class FindWorkHotTypePsychologicalDetailActivity extends BaseActivity {
     protected void initView() {
         ivBack = (ImageView) findViewById(R.id.iv_psychological_detail_back);
         tvTitle = (TextView) findViewById(R.id.tv_psychological_detail_title);
-        ivTel = (ImageView) findViewById(R.id.tv_psychological_detail_tel);
+        ivTel = (TextView) findViewById(R.id.tv_psychological_detail_tel);
         tvName = (TextView) findViewById(R.id.tv_psychological_detail_name);
         tvSex = (TextView) findViewById(R.id.tv_psychological_detail_sex);
         tvQQ = (TextView) findViewById(R.id.tv_psychological_detail_qq);
@@ -66,15 +68,21 @@ public class FindWorkHotTypePsychologicalDetailActivity extends BaseActivity {
         });
         tvTitle.setText(DataValue.FINDHUO_DETAIL_NOR);
 
-request();
-        ivTel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent phoneCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "15642838708"));
-                startActivity(phoneCall);
-//                number="";
-            }
-        });
+        request();
+
+//        ivTel.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (isPhoneNumberValid(DataValue.PSYCHOLOGIST_TEL)) {
+//                    Intent phoneCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + DataValue.PSYCHOLOGIST_TEL));
+//                    startActivity(phoneCall);
+//
+//                } else {
+//                    Toast.makeText(FindWorkHotTypePsychologicalDetailActivity.this, "拨打号码有问题", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//        });
 
 
     }
@@ -82,8 +90,8 @@ request();
     private void request() {
         HttpUtils httpUtils = new HttpUtils();
         RequestParams params = new RequestParams();
-        params.addBodyParameter("id_psychologist","1");
-        httpUtils.send(HttpRequest.HttpMethod.POST,URLValue.URL_NOR + URLValue.URL_PSYCHOLOGIST_DETAIL , params,
+        params.addBodyParameter("id_psychologist", "1");
+        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + URLValue.URL_PSYCHOLOGIST_DETAIL, params,
                 new RequestCallBack<String>() {
                     @Override
                     public void onFailure(HttpException arg0, String arg1) {
@@ -101,6 +109,7 @@ request();
                             if (mPsychologistDetailBean == null) {
                                 Log.d("LotteryFragment", "实体类为null");
                             } else if (mPsychologistDetailBean.getRes() == 10001) {
+                               ivTel.setText(mPsychologistDetailBean.getData().getTel());
                                 tvName.setText(mPsychologistDetailBean.getData().getName());
                                 tvSex.setText(mPsychologistDetailBean.getData().getSex());
                                 tvQQ.setText(mPsychologistDetailBean.getData().getQq());

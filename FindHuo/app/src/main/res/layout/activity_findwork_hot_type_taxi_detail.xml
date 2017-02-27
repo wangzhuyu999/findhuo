@@ -33,44 +33,37 @@
             android:id="@+id/search_findwork_hot_type_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
             android:layout_marginRight="20dp"
-            android:src="@mipmap/searchbai3x"/>
+            android:src="@mipmap/searchbai3x"
+            android:layout_alignBottom="@+id/tv_findwork_hot_type_taxi_detail_back"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="17dp"/>
     </RelativeLayout>
 
-    <ScrollView
-        android:id="@+id/sv_findcar"
+    <!--<com.handmark.pulltorefresh.library.PullToRefreshScrollView-->
+    <!--xmlns:ptr="http://schemas.android.com/apk/res-auto"-->
+
+    <!--android:id="@+id/sv_findcar"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:layout_below="@id/rv_findcar"-->
+    <!--android:scrollbars="none"-->
+    <!--ptr:ptrAnimationStyle="flip"-->
+    <!--ptr:ptrMode="both">-->
+
+    <com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_detail.RefreshView
+        android:id="@+id/swip_findcar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scrollbars="none"
-        android:layout_below="@id/rv_findcar">
+        android:layout_height="wrap_content">
 
-        <RelativeLayout
+        <ListView
+            android:id="@+id/lv_findwork_hot_type_taxi_detail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:scrollbars="none"/>
+        <!--android:layout_below="@id/view_pager_findworke_hot_type_taxi_detail"-->
 
-            <android.support.v4.view.ViewPager
-                android:id="@+id/view_pager_findworke_hot_type_taxi_detail"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                />
+    </com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_detail.RefreshView>
+    <!--</com.handmark.pulltorefresh.library.PullToRefreshScrollView>-->
 
-            <LinearLayout
-                android:id="@+id/ll_findworke_hot_type_taxi_detail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-30dp"
-                android:gravity="center"
-                android:orientation="horizontal"/>
-
-            <com.jinyuankeji.yxm.findhuo.tools.SVL
-                android:id="@+id/lv_findwork_hot_type_taxi_detail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scrollbars="none"
-                android:layout_below="@id/view_pager_findworke_hot_type_taxi_detail"/>
-
-        </RelativeLayout>
-    </ScrollView>
 </LinearLayout>

@@ -74,7 +74,7 @@
             android:text="发送验证码"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/verification"/>
+            android:id="@+id/textView19"/>
 
 
     </LinearLayout>
@@ -98,7 +98,7 @@
             android:id="@+id/passwordd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
+            android:inputType="textPersonName"
             android:layout_marginLeft="10dp"
             android:background="@null"
             android:numeric="signed"
@@ -123,7 +123,6 @@
             android:text="邀请码"/>
 
         <EditText
-            android:id="@+id/number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.ViewPager;
-
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
 import android.view.View;
@@ -104,13 +103,12 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
 
     }
 
-
     @Override
     protected void initData() {
         scrollView.scrollTo(0, 0);
         mMapView = (MapView) getView().findViewById(R.id.map_view);
         //在activity执行onCreate时执行mMapView.onCreate(savedInstanceState)，
-        // mMapView.onCreate(savedInstanceState);
+//       mMapView.onCreate(savedInstanceState);
         if (aMap == null) {
             aMap = mMapView.getMap();
             UiSettings settings = aMap.getUiSettings();
@@ -247,7 +245,7 @@ public class LotteryFragment extends BaseFragment implements LocationSource, AMa
                 Log.e("AmapError", "location Error, ErrCode:"
                         + aMapLocation.getErrorCode() + ", errInfo:"
                         + aMapLocation.getErrorInfo());
-               // Toast.makeText(getActivity(), "位置获取失败。", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "位置获取失败。", Toast.LENGTH_LONG).show();
             }
         }
     }

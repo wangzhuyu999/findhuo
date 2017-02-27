@@ -35,7 +35,7 @@ public class FindWorkDeclareNewAdapter extends BaseAdapter{
 
     @Override
     public int getCount() {
-        return 2;
+        return datas.getIntroduce().size();
     }
 
     @Override
@@ -50,7 +50,6 @@ public class FindWorkDeclareNewAdapter extends BaseAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
         ViewHolderLotteryStation viewHolder = null;
         if (convertView == null) {
             convertView = LayoutInflater.from(mContext).inflate(R.layout.fragment_findwork_declare_new_item, parent, false);
@@ -59,15 +58,12 @@ public class FindWorkDeclareNewAdapter extends BaseAdapter{
         } else {
             viewHolder = (ViewHolderLotteryStation) convertView.getTag();
         }
-
         viewHolder.tvName.setText(datas.getIntroduce().get(position).getName());
         viewHolder.tvJob.setText(datas.getIntroduce().get(position).getTitle());
         viewHolder.tvRange.setText(datas.getIntroduce().get(position).getService_area());
         viewHolder.tvPrice.setText(datas.getIntroduce().get(position).getSalary());
         Picasso.with(mContext).load(datas.getIntroduce().get(position).getHeadimg()).into(viewHolder.ivImg);
-
         return convertView;
-
     }
 
     public class ViewHolderLotteryStation {
@@ -82,8 +78,6 @@ public class FindWorkDeclareNewAdapter extends BaseAdapter{
             tvPrice = (TextView) itemView.findViewById(R.id.tv_findwork_declare_new_price);
             ivImg = (ImageView) itemView.findViewById(R.id.iv_findworke_declare_new_head);
             ll = (RelativeLayout) itemView.findViewById(R.id.rv_findwork_declare_new_item);
-
-
         }
     }
 

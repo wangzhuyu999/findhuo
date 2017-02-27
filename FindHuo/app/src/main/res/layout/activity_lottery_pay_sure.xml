@@ -80,4 +80,10 @@
         android:textSize="17sp"/>
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="pa"
+        android:id="@+id/pay"/>
 </RelativeLayout>

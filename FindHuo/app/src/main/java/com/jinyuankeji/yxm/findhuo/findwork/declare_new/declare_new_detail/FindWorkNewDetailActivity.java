@@ -23,6 +23,9 @@ import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest;
 import com.squareup.picasso.Picasso;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Created by  yxiaomin on 2016/12/21 0021.
  */
@@ -64,17 +67,41 @@ public class FindWorkNewDetailActivity extends BaseActivity {
                 finish();
             }
         });
+        request();
+
 
         ivTel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent phoneCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + DataValue.JIGONG_DETAIL_TEL));
+//                DataValue.JIGONG_DETAIL_TEL
+        if (isPhoneNumberValid(DataValue.JIGONG_DETAIL_TEL)){
+            Log.d("FindWorkNewDetailActivi", DataValue.JIGONG_DETAIL_TEL);
+                Intent phoneCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" +DataValue.JIGONG_DETAIL_TEL));
                 startActivity(phoneCall);
 //                number="";
-            }
+            }else {
+            Toast.makeText(FindWorkNewDetailActivity.this, "拨打号码有问题", Toast.LENGTH_SHORT).show();
+        }
+        }
         });
-        request();
 
+
+    }
+
+    public static boolean isPhoneNumberValid(String phoneNumber) {
+        boolean isValid = false;
+        String expression = "^\\(?(\\d{3})\\)?[- ]?(\\d{3})[- ]?(\\d{5})$";
+        String expression2 = "^\\(?(\\d{3})\\)?[- ]?(\\d{4})[- ]?(\\d{4})$";
+        CharSequence inputStr = phoneNumber;
+        Pattern pattern = Pattern.compile(expression);
+        Matcher matcher = pattern.matcher(inputStr);
+
+        Pattern pattern2 = Pattern.compile(expression2);
+        Matcher matcher2 = pattern2.matcher(inputStr);
+        if(matcher.matches() || matcher2.matches()) {
+            isValid = true;
+        }
+        return isValid;
     }
 
 

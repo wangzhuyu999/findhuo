@@ -18,59 +18,25 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 //import com.google.android.gms.appindexing.Action;
 //import com.google.android.gms.appindexing.AppIndex;
 //import com.google.android.gms.appindexing.Thing;
 //import com.google.android.gms.common.api.GoogleApiClient;
 import com.jinyuankeji.yxm.findhuo.R;
-import com.jinyuankeji.yxm.findhuo.Util.AndroidUtil;
 import com.jinyuankeji.yxm.findhuo.Util.ImageTools;
-import com.jinyuankeji.yxm.findhuo.bean.LoginBean;
-import com.jinyuankeji.yxm.findhuo.bean.UploadPictureBean;
-import com.jinyuankeji.yxm.findhuo.bean.UserInfoBean;
-import com.jinyuankeji.yxm.findhuo.bean.UserModifyBean;
-import com.jinyuankeji.yxm.findhuo.bean.VercodeBean;
-import com.jinyuankeji.yxm.findhuo.image_util.ImageLoaderUtil;
-import com.jinyuankeji.yxm.findhuo.image_util.Instance;
-import com.jinyuankeji.yxm.findhuo.tools.Contants;
-import com.jinyuankeji.yxm.findhuo.tools.JsonUtils;
-import com.jinyuankeji.yxm.findhuo.tools.URLValue;
-import com.lidroid.xutils.HttpUtils;
-import com.lidroid.xutils.exception.HttpException;
-import com.lidroid.xutils.http.RequestParams;
-import com.lidroid.xutils.http.ResponseInfo;
-import com.lidroid.xutils.http.callback.RequestCallBack;
-import com.lidroid.xutils.http.client.HttpRequest;
-import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-import com.squareup.picasso.Picasso;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
-
-import static com.jinyuankeji.yxm.findhuo.R.id.showdate;
-import static com.jinyuankeji.yxm.findhuo.tools.URLValue.checkPhone;
-import static com.jinyuankeji.yxm.findhuo.tools.URLValue.forgetPwd;
-import static com.jinyuankeji.yxm.findhuo.tools.URLValue.uploadPicture;
-import static com.jinyuankeji.yxm.findhuo.tools.URLValue.userInfo;
-import static com.jinyuankeji.yxm.findhuo.tools.URLValue.userModify;
 
 
 /**
@@ -78,16 +44,7 @@ import static com.jinyuankeji.yxm.findhuo.tools.URLValue.userModify;
  */
 
 public class PersonalActivity extends Activity {
-
-    private String Phone;
-
-    private UploadPictureBean bean1;
-    private UserModifyBean bean2;
-    private UserInfoBean bean3;
-
-    private EditText name;
     private ImageView back;
-    private Button keep,save;
 
     private EditText showDate = null;
     private RelativeLayout pickDate = null;
@@ -106,40 +63,19 @@ public class PersonalActivity extends Activity {
      *  camera
      */
 
-    private ImageView img;
-    private Button btnUpload;
-    private HttpUtils httpUtils;
-    private String URL="http://zhaohuo.jinyuankeji.net/api.php/App/uploadPicture/avatar/";
+    private static final int TAKE_PICTURE = 0;
+    private static final int CHOOSE_PICTURE = 1;
+    private static final int CROP = 2;
+    private static final int CROP_PICTURE = 3;
 
-    private String[] items = { "拍照", "相册" };
-    private String title = "选择照片";
-
-    private static final int PHOTO_CARMERA = 1;
-    private static final int PHOTO_PICK = 2;
-    private static final int PHOTO_CUT = 3;
-    // 创建一个以当前系统时间为名称的文件，防止重复
-    private File tempFile = new File(Environment.getExternalStorageDirectory(),
-            getPhotoFileName());
-
-    // 使用系统当前日期加以调整作为照片的名称
-    private String getPhotoFileName() {
-        Date date = new Date(System.currentTimeMillis());
-        SimpleDateFormat sdf = new SimpleDateFormat("'PNG'_yyyyMMdd_HHmmss");
-        return sdf.format(date) + ".png";
-    }
+    private static final int SCALE = 5;//照片缩小比例
+    private ImageView iv_image = null;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.my_personal);
-
-        //同样，在读取SharedPreferences数据前要实例化出一个SharedPreferences对象
-        SharedPreferences sharedPreferences = getSharedPreferences("user",Activity.MODE_PRIVATE);
-        // 使用getString方法获得value，注意第2个参数是value的默认值
-        Phone = sharedPreferences.getString("phone","");
-
-        request();
 
         initializeViews();
 
@@ -150,137 +86,19 @@ public class PersonalActivity extends Activity {
 
         setDateTime();
         initView();
+//        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
         //照片上传
-        img = (ImageView) findViewById(R.id.img);
-        btnUpload = (Button) findViewById(R.id.button5);
-        btnUpload.setOnClickListener(clickListener);
-        img.setOnClickListener(clickListener);
 
-        httpUtils=new HttpUtils(10000);
+        iv_image = (ImageView) this.findViewById(R.id.img);
+        iv_image.setOnClickListener(new OnClickListener() {
 
-        name = (EditText)findViewById(R.id.name);
-
-
-
-    }
-
-
-    //我的界面——》修改个人信息和修改彩票提醒
-    private void request2(){
-        HttpUtils httpUtils = new HttpUtils();
-        // 请求参数
-        RequestParams params = new RequestParams();
-        params.addBodyParameter("account",Phone);
-        params.addBodyParameter("birthday",showDate.getText().toString().trim());
-        params.addBodyParameter("name",name.getText().toString().trim());
-        params.addBodyParameter("headimg",Contants.img);
-
-        // 发送请求数据
-        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + userModify, params,
-                new RequestCallBack<String>() {
-                    // 请求接口失败 arg1 为后台返回的错误信息
-                    @Override
-                    public void onFailure(HttpException arg0, String arg1) {
-                        Log.i("请求失败",
-                                "111111111111111111111 error: "
-                                        + arg1.toString());
-                    }
-
-                    // 请求接口成功 arg0.tostring 为后台返回的信息
-                    @Override
-                    public void onSuccess(ResponseInfo<String> arg0) {
-
-                        if (arg0.result.toString().equals("0")) {
-
-                        } else {
-
-                            Log.e("修改请求成功",
-                                    "66666666666666666666 onSuccess"
-                                            + arg0.result.toString());
-
-                            //  getList(arg0.result.toString());// 请求返回的数据，json解析
-                            String json = arg0.result.toString();
-                            bean2 = JsonUtils.getJtoC(json, UserModifyBean.class);
-                            //   Contants.account = etMainUserName.getText().toString().trim();
-
-                            int i = bean2.getRes();
-
-
-                            if(i == 10001){
-                                Toast.makeText(getApplicationContext(), "保存成功",
-                                        Toast.LENGTH_SHORT).show();
-
-
-                            }if(i == 10002){
-                                Toast.makeText(getApplicationContext(), "修改失败",
-                                        Toast.LENGTH_SHORT).show();
-                            }if(i == 10000){
-                                Toast.makeText(getApplicationContext(), "请求失败",
-                                        Toast.LENGTH_SHORT).show();
-                            }
-
-                        }
-
-                    }
-
-                });
-
-
-    }
-
-    //我的界面、个人信息读取、消息提醒读取、账户余额
-    //请求
-    private void request() {
-        HttpUtils httpUtils = new HttpUtils();
-        // 请求参数
-        RequestParams params = new RequestParams();
-        params.addBodyParameter("account",Phone);
-       // params.addBodyParameter("actionid","1");
-
-        // 发送请求数据
-        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + userInfo, params,
-                new RequestCallBack<String>() {
-                    // 请求接口失败 arg1 为后台返回的错误信息
-                    @Override
-                    public void onFailure(HttpException arg0, String arg1) {
-                        Log.i("请求失败",
-                                "111111111111111111111 error: "
-                                        + arg1.toString());
-                    }
-
-                    // 请求接口成功 arg0.tostring 为后台返回的信息
-                    @Override
-                    public void onSuccess(ResponseInfo<String> arg0) {
-
-                        if (arg0.result.toString().equals("0")) {
-
-                        } else {
-
-                            Log.e("请求成功",
-                                    "222222222222222222 onSuccess"
-                                            + arg0.result.toString());
-
-                            //  getList(arg0.result.toString());// 请求返回的数据，json解析
-                            String json = arg0.result.toString();
-                            bean3 = JsonUtils.getJtoC(json, UserInfoBean.class);
-
-                            Instance.imageLoader.init(ImageLoaderConfiguration.createDefault(PersonalActivity.this));
-
-                            String heading = bean3.getData().getUrl();
-                            ImageLoaderUtil.getInternetImage(heading,img);
-
-                            String name_bean = bean3.getData().getName();
-                            name.setText(name_bean);
-                            String showDate_bean = bean3.getData().getBirthday();
-                            showDate.setText(showDate_bean);
-
-                        }
-
-                    }
-
-                });
-
+            @Override
+            public void onClick(View v) {
+                //截图后显示
+                showPicturePicker(PersonalActivity.this,true);
+            }
+        });
 
     }
 
@@ -288,179 +106,136 @@ public class PersonalActivity extends Activity {
      * 照片上传
      */
 
-    private OnClickListener clickListener = new OnClickListener() {
-
-        @Override
-        public void onClick(View v) {
-            switch (v.getId()) {
-                case R.id.img:
-                    AlertDialog.Builder dialog = AndroidUtil.getListDialogBuilder(
-                            PersonalActivity.this, items, title, dialogListener);
-                    dialog.show();
-                    break;
-                case R.id.button5:
-
-                    upload();
-                    request2();
-                    break;
-
-                default:
-                    break;
-            }
-
-        }
-    };
-
-    // 上传文件到服务器
-    protected void upload() {
-        RequestParams params=new RequestParams();
-        //params.addBodyParameter(tempFile.getPath().replace("/", ""), tempFile);
-        params.addBodyParameter("savePath", tempFile);
-        httpUtils.send(HttpRequest.HttpMethod.POST,URL, params,new RequestCallBack<String>() {
-
-            @Override
-            public void onFailure(HttpException e, String msg) {
-                Toast.makeText(PersonalActivity.this, "图片上传失败", Toast.LENGTH_SHORT).show();
-                Log.e("MainActivity", e.getExceptionCode() + "====="
-                        + msg);
-            }
-
-            @Override
-            public void onSuccess(ResponseInfo<String> responseInfo) {
-                //Toast.makeText(PersonalActivity.this, "保存成功", Toast.LENGTH_SHORT).show();
-                Log.e("MainActivity", "====upload_error====="
-                        + responseInfo.result);
-
-                String json = responseInfo.result.toString();
-
-                bean1 = JsonUtils.getJtoC(json, UploadPictureBean.class);
-                String image = bean1.getData().getHeadimg().toString();
-                Contants.img = image;
-
-            }
-        });
-    }
-
-    private android.content.DialogInterface.OnClickListener dialogListener = new DialogInterface.OnClickListener() {
-
-        @Override
-        public void onClick(DialogInterface dialog, int which) {
-            switch (which) {
-                case 0:
-                    // 调用拍照
-                    startCamera(dialog);
-                    break;
-                case 1:
-                    // 调用相册
-                    startPick(dialog);
-                    break;
-
-                default:
-                    break;
-            }
-        }
-    };
-
-    // 调用系统相机
-    protected void startCamera(DialogInterface dialog) {
-        dialog.dismiss();
-        // 调用系统的拍照功能
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        intent.putExtra("camerasensortype", 2); // 调用前置摄像头
-        intent.putExtra("autofocus", true); // 自动对焦
-        intent.putExtra("fullScreen", false); // 全屏
-        intent.putExtra("showActionIcons", false);
-        // 指定调用相机拍照后照片的存储路径
-        intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(tempFile));
-        startActivityForResult(intent, PHOTO_CARMERA);
-    }
-
-    // 调用系统相册
-    protected void startPick(DialogInterface dialog) {
-        dialog.dismiss();
-        Intent intent = new Intent(Intent.ACTION_PICK, null);
-        intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
-                "image/*");
-        startActivityForResult(intent, PHOTO_PICK);
-    }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        switch (requestCode) {
-            case PHOTO_CARMERA:
-                startPhotoZoom(Uri.fromFile(tempFile), 300);
-                break;
-            case PHOTO_PICK:
-                if (null != data) {
-                    startPhotoZoom(data.getData(), 300);
-                }
-                break;
-            case PHOTO_CUT:
-                if (null != data) {
-                    setPicToView(data);
-                }
-                break;
-
-            default:
-                break;
-        }
         super.onActivityResult(requestCode, resultCode, data);
-    }
+        if (resultCode == RESULT_OK) {
+            switch (requestCode) {
+                case TAKE_PICTURE:
+                    //将保存在本地的图片取出并缩小后显示在界面上
+                    Bitmap bitmap = BitmapFactory.decodeFile(Environment.getExternalStorageDirectory()+"/image.jpg");
+                    Bitmap newBitmap = ImageTools.zoomBitmap(bitmap, bitmap.getWidth() / SCALE, bitmap.getHeight() / SCALE);
+                    //由于Bitmap内存占用较大，这里需要回收内存，否则会报out of memory异常
+                    bitmap.recycle();
 
-    // 调用系统裁剪
-    private void startPhotoZoom(Uri uri, int size) {
-        Intent intent = new Intent("com.android.camera.action.CROP");
-        intent.setDataAndType(uri, "image/*");
-        // crop为true是设置在开启的intent中设置显示的view可以裁剪
-        intent.putExtra("crop", true);
-        // aspectX,aspectY是宽高的比例
-        intent.putExtra("aspectX", 1);
-        intent.putExtra("aspectY", 1);
-        // outputX,outputY是裁剪图片的宽高
-        intent.putExtra("outputX", size);
-        intent.putExtra("outputY", size);
-        // 设置是否返回数据
-        intent.putExtra("return-data", true);
-        startActivityForResult(intent, PHOTO_CUT);
-    }
+                    //将处理过的图片显示在界面上，并保存到本地
+                    iv_image.setImageBitmap(newBitmap);
+                    ImageTools.savePhotoToSDCard(newBitmap, Environment.getExternalStorageDirectory().getAbsolutePath(), String.valueOf(System.currentTimeMillis()));
 
-    // 将裁剪后的图片显示在ImageView上
-    private void setPicToView(Intent data) {
-        Bundle bundle = data.getExtras();
-        if (null != bundle) {
-            final Bitmap bmp = bundle.getParcelable("data");
-            img.setImageBitmap(bmp);
+                    break;
 
-            saveCropPic(bmp);
-            Log.i("MainActivity", tempFile.getAbsolutePath());
-        }
-    }
+                case CHOOSE_PICTURE:
+                    ContentResolver resolver = getContentResolver();
+                    //照片的原始资源地址
+                    Uri originalUri = data.getData();
+                    try {
+                        //使用ContentProvider通过URI获取原始图片
+                        Bitmap photo = MediaStore.Images.Media.getBitmap(resolver, originalUri);
+                        if (photo != null) {
+                            //为防止原始图片过大导致内存溢出，这里先缩小原图显示，然后释放原始Bitmap占用的内存
+                            Bitmap smallBitmap = ImageTools.zoomBitmap(photo, photo.getWidth() / SCALE, photo.getHeight() / SCALE);
+                            //释放原始图片占用的内存，防止out of memory异常发生
+                            photo.recycle();
 
-    // 把裁剪后的图片保存到sdcard上
-    private void saveCropPic(Bitmap bmp) {
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        FileOutputStream fis = null;
-        bmp.compress(Bitmap.CompressFormat.PNG, 100, baos);
-        try {
-            fis = new FileOutputStream(tempFile);
-            fis.write(baos.toByteArray());
-            fis.flush();
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (null != baos) {
-                    baos.close();
-                }
-                if (null != fis) {
-                    fis.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
+                            iv_image.setImageBitmap(smallBitmap);
+                        }
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+
+                case CROP:
+                    Uri uri = null;
+                    if (data != null) {
+                        uri = data.getData();
+                        System.out.println("Data");
+                    }else {
+                        System.out.println("File");
+                        String fileName = getSharedPreferences("temp",Context.MODE_WORLD_WRITEABLE).getString("tempName", "");
+                        uri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),fileName));
+                    }
+                    cropImage(uri, 500, 500, CROP_PICTURE);
+                    break;
+
+                case CROP_PICTURE:
+                    Bitmap photo = null;
+                    Uri photoUri = data.getData();
+                    if (photoUri != null) {
+                        photo = BitmapFactory.decodeFile(photoUri.getPath());
+                    }
+                    if (photo == null) {
+                        Bundle extra = data.getExtras();
+                        if (extra != null) {
+                            photo = (Bitmap)extra.get("data");
+                            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                            photo.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+                        }
+                    }
+                    iv_image.setImageBitmap(photo);
+                    break;
+                default:
+                    break;
             }
         }
     }
 
+    public void showPicturePicker(Context context,boolean isCrop){
+        final boolean crop = isCrop;
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("图片来源");
+        builder.setNegativeButton("取消", null);
+        builder.setItems(new String[]{"拍照","相册"}, new DialogInterface.OnClickListener() {
+            //类型码
+            int REQUEST_CODE;
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case TAKE_PICTURE:
+                        Uri imageUri = null;
+                        String fileName = null;
+                        Intent openCameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        if (crop) {
+                            REQUEST_CODE = CROP;
+                            //删除上一次截图的临时文件
+                            SharedPreferences sharedPreferences = getSharedPreferences("temp",Context.MODE_WORLD_WRITEABLE);
+//                            ImageTools.deletePhotoAtPathAndName(Environment.getExternalStorageDirectory().getAbsolutePath(), sharedPreferences.getString("tempName", ""));
+
+                            //保存本次截图临时文件名字
+                            fileName = String.valueOf(System.currentTimeMillis()) + ".jpg";
+                            Editor editor = sharedPreferences.edit();
+                            editor.putString("tempName", fileName);
+                            editor.commit();
+                        }else {
+                            REQUEST_CODE = TAKE_PICTURE;
+                            fileName = "image.jpg";
+                        }
+                        imageUri = Uri.fromFile(new File(Environment.getExternalStorageDirectory(),fileName));
+                        //指定照片保存路径（SD卡），image.jpg为一个临时文件，每次拍照后这个图片都会被替换
+                        openCameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                        startActivityForResult(openCameraIntent, REQUEST_CODE);
+                        break;
+
+                    case CHOOSE_PICTURE:
+                        Intent openAlbumIntent = new Intent(Intent.ACTION_GET_CONTENT);
+                        if (crop) {
+                            REQUEST_CODE = CROP;
+                        }else {
+                            REQUEST_CODE = CHOOSE_PICTURE;
+                        }
+                        openAlbumIntent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
+                        startActivityForResult(openAlbumIntent, REQUEST_CODE);
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+        });
+        builder.create().show();
+    }
 
     //截取图片
     public void cropImage(Uri uri, int outputX, int outputY, int requestCode){
@@ -494,7 +269,7 @@ public class PersonalActivity extends Activity {
 
 
     private void initializeViews() {
-        showDate = (EditText) findViewById(showdate);
+        showDate = (EditText) findViewById(R.id.showdate);
         pickDate = (RelativeLayout) findViewById(R.id.pickdate);
 
         pickDate.setOnClickListener(new OnClickListener() {
@@ -517,7 +292,7 @@ public class PersonalActivity extends Activity {
         mMonth = c.get(Calendar.MONTH);
         mDay = c.get(Calendar.DAY_OF_MONTH);
 
-       // updateDateDisplay();
+        updateDateDisplay();
     }
 
     private void updateDateDisplay() {
@@ -577,17 +352,29 @@ public class PersonalActivity extends Activity {
 
     };
 
-
+//    public Action getIndexApiAction() {
+//        Thing object = new Thing.Builder()
+//                .setName("Personal Page") // TODO: Define a title for the content shown.
+//                // TODO: Make sure this auto-generated URL is correct.
+//                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
+//                .build();
+//        return new Action.Builder(Action.TYPE_VIEW)
+//                .setObject(object)
+//                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
+//                .build();
+//    }
 
     @Override
     public void onStart() {
         super.onStart();
-
+//        client.connect();
+//        AppIndex.AppIndexApi.start(client, getIndexApiAction());
     }
 
     @Override
     public void onStop() {
         super.onStop();
-
+//        AppIndex.AppIndexApi.end(client, getIndexApiAction());
+//        client.disconnect();
     }
 }

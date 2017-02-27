@@ -59,7 +59,7 @@
                 android:textColor="@color/money"
                 android:ems="10"
                 android:singleLine="true"
-                android:id="@+id/name"
+                android:id="@+id/editText"
                 android:layout_weight="0.51" />
         </LinearLayout>
 
@@ -68,6 +68,9 @@
             android:layout_height="45dp"
             android:orientation="horizontal"
             android:gravity="center_vertical">
+
+
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,41 +83,41 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="30dp"
                 android:id="@+id/textView15"/>
-            <RadioGroup
-                android:id="@+id/radioGroup"
-                android:contentDescription="性别"
-                android:layout_marginLeft="20dp"
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-
-            <RadioButton
+            <TextView
+                android:text="男"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/radioMale"
+                android:id="@+id/textView16"
+                android:textColor="@color/fontSize"
+                android:layout_marginLeft="50dp"
                 android:textSize="16sp"
+                android:layout_toEndOf="@+id/textView15"/>
+
+            <CheckBox
+                android:button="@null"
+                android:checked="true"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/checkBox"
+                android:background="@drawable/checkbox"/>
+            <TextView
+                android:text="女"
+                android:textColor="@color/fontSize"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/textView17"/>
+
+            <CheckBox
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:id="@+id/checkBox2"
                 android:layout_marginLeft="10dp"
                 android:button="@null"
-                android:textColor="@color/fontSize"
-                android:drawableRight="@drawable/checkbox"
-                android:text="男">
-
-            </RadioButton>
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioFemale"
-                android:layout_marginLeft="50dp"
-                android:button="@null"
-                android:textSize="16sp"
-                android:textColor="@color/fontSize"
-                android:drawableRight="@drawable/checkbox"
-                android:text="女">
-
-            </RadioButton>
-            </RadioGroup>
+                android:checked="true"
+                android:background="@drawable/checkbox"/>
 
         </LinearLayout>
 
@@ -142,7 +145,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linear"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:orientation="horizontal"
@@ -155,25 +157,22 @@
                 android:textSize="16sp"
                 android:text="输入起点："/>
 
-            <Spinner
-                android:id="@+id/province1"
+            <EditText
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:background="@drawable/edittext"
                 android:textSize="16sp"
                 android:textColor="@color/money"/>
             <TextView
-                android:id="@+id/p"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/fontSize"
                 android:textSize="16sp"
                 android:layout_marginLeft="10dp"
                 android:text="省"/>
-            <Spinner
-                android:id="@+id/city1"
+            <EditText
                 android:layout_width="80dp"
-                android:layout_height="29dp"
+                android:layout_height="30dp"
                 android:background="@drawable/edittext"
                 android:textSize="16sp"
                 android:layout_marginLeft="10dp"
@@ -196,7 +195,6 @@
             android:weightSum="1">
 
             <EditText
-                android:id="@+id/address1"
                 android:layout_width="300dp"
                 android:layout_height="30dp"
                 android:background="@drawable/edittext"
@@ -224,8 +222,7 @@
                 android:textSize="16sp"
                 android:text="输入终点："/>
 
-            <Spinner
-                android:id="@+id/province2"
+            <EditText
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:background="@drawable/edittext"
@@ -238,8 +235,7 @@
                 android:textSize="16sp"
                 android:layout_marginLeft="10dp"
                 android:text="省"/>
-            <Spinner
-                android:id="@+id/city2"
+            <EditText
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:background="@drawable/edittext"
@@ -264,7 +260,6 @@
             android:weightSum="1">
 
             <EditText
-                android:id="@+id/address2"
                 android:layout_width="300dp"
                 android:layout_height="30dp"
                 android:background="@drawable/edittext"
@@ -299,41 +294,37 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="30dp"/>
-            <RadioGroup
-                android:id="@+id/radioGroup2"
-                android:contentDescription="性别"
-                android:orientation="horizontal"
+            <TextView
+                android:text="是"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp">
+                android:textColor="@color/fontSize"
+                android:layout_marginLeft="50dp"
+                android:textSize="16sp"
+                android:layout_toEndOf="@+id/textView15"/>
 
+            <CheckBox
+                android:button="@null"
+                android:checked="true"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/checkbox"/>
+            <TextView
+                android:text="否"
+                android:textColor="@color/fontSize"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"/>
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/radioMale2"
-                    android:layout_marginLeft="10dp"
-                    android:button="@null"
-                    android:drawableRight="@drawable/checkbox"
-                    android:textColor="@color/fontSize"
-                    android:textSize="16sp"
-                    android:text="是">
-
-                </RadioButton>
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/radioFemale2"
-                    android:layout_marginLeft="50dp"
-                    android:button="@null"
-                    android:textSize="16sp"
-                    android:drawableRight="@drawable/checkbox"
-                    android:textColor="@color/fontSize"
-                    android:text="否">
-
-                </RadioButton>
-            </RadioGroup>
+            <CheckBox
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:button="@null"
+                android:checked="true"
+                android:background="@drawable/checkbox"/>
 
         </LinearLayout>
 
@@ -374,7 +365,6 @@
             android:background="#58bbb8"
             android:textColor="#fff"
             android:textSize="20sp"
-            android:id="@+id/button"
             android:text="发布打车消息"/>
 
 </LinearLayout>

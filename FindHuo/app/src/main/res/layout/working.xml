@@ -99,41 +99,42 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="30dp"
                     android:id="@+id/textView15"/>
-                <RadioGroup
-                    android:id="@+id/radioGroup"
-                    android:contentDescription="性别"
-                    android:layout_marginLeft="5dp"
-                    android:orientation="horizontal"
+                <TextView
+                    android:text="男"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16"
+                    android:textColor="@color/fontSize"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="16sp"
+                    android:layout_toEndOf="@+id/textView15"/>
 
+                <CheckBox
+                    android:button="@null"
+                    android:checked="true"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/checkBox"
+                    android:background="@drawable/checkbox"/>
+                <TextView
+                    android:text="女"
+                    android:textColor="@color/fontSize"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:id="@+id/textView17"/>
 
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/radioMale"
-                        android:layout_marginLeft="10dp"
-                        android:button="@null"
-                        android:drawableRight="@drawable/checkbox"
-                        android:text="男"
-                        android:textColor="@color/fontSize"
-                        android:textSize="16sp">
+                <CheckBox
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:id="@+id/checkBox2"
+                    android:layout_marginLeft="10dp"
+                    android:button="@null"
+                    android:checked="true"
+                    android:background="@drawable/checkbox"/>
 
-                    </RadioButton>
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/radioFemale"
-                        android:layout_marginLeft="50dp"
-                        android:button="@null"
-                        android:textColor="@color/fontSize"
-                        android:textSize="16sp"
-                        android:drawableRight="@drawable/checkbox"
-                        android:text="女">
-
-                    </RadioButton>
-                </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
@@ -173,7 +174,6 @@
                     android:text="标题："/>
 
                 <EditText
-                    android:id="@+id/title_edittext"
                     android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="30dp"
@@ -198,14 +198,12 @@
                     android:text="年龄："/>
 
                 <EditText
-                    android:id="@+id/age"
                     android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="30dp"
                     android:background="@drawable/edittext"
                     android:textSize="16sp"
                     android:textColor="@color/money"
-                    android:inputType="number"
                     android:ems="10"
                     android:singleLine="true"
                     android:layout_weight="0.51" />
@@ -224,8 +222,7 @@
                     android:textSize="16sp"
                     android:text="住址："/>
 
-                <Spinner
-                    android:id="@+id/province1"
+                <EditText
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/edittext"
@@ -238,10 +235,9 @@
                     android:textSize="16sp"
                     android:layout_marginLeft="10dp"
                     android:text="省"/>
-                <Spinner
-                    android:id="@+id/city1"
+                <EditText
                     android:layout_width="80dp"
-                    android:layout_height="29dp"
+                    android:layout_height="30dp"
                     android:background="@drawable/edittext"
                     android:textSize="16sp"
                     android:layout_marginLeft="10dp"
@@ -264,7 +260,6 @@
                 android:weightSum="1">
 
                 <EditText
-                    android:id="@+id/address"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginRight="30dp"
@@ -293,7 +288,6 @@
                     android:text="服务范围："/>
 
                 <EditText
-                    android:id="@+id/service_area"
                     android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="30dp"
@@ -318,13 +312,11 @@
                     android:text="工作年限："/>
 
                 <EditText
-                    android:id="@+id/work_year"
                     android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="30dp"
                     android:background="@drawable/edittext"
                     android:textSize="16sp"
-                    android:inputType="number"
                     android:textColor="@color/money"
                     android:ems="10"
                     android:numeric="integer"
@@ -344,8 +336,7 @@
                     android:textSize="16sp"
                     android:text="所属行业："/>
 
-                <Spinner
-                    android:id="@+id/industry"
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="30dp"
@@ -353,7 +344,7 @@
                     android:textSize="16sp"
                     android:textColor="@color/money"
                     android:ems="10"
-                    android:entries="@array/industry_array"
+                    android:singleLine="true"
                     android:layout_weight="0.51" />
             </LinearLayout>
 
@@ -371,14 +362,12 @@
                     android:text="薪资："/>
 
                 <EditText
-                    android:id="@+id/salary"
                     android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="30dp"
                     android:background="@drawable/edittext"
                     android:textSize="16sp"
                     android:textColor="@color/money"
-                    android:inputType="number"
                     android:ems="10"
                     android:singleLine="true"
                     android:layout_weight="0.51" />
@@ -410,12 +399,11 @@
                     android:gravity="top"
                     android:maxLength="150"
                     android:ems="10"
-                    android:id="@+id/content"/>
+                    android:id="@+id/editText2"/>
 
             </LinearLayout>
         </LinearLayout>
         <Button
-            android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#58bbb8"

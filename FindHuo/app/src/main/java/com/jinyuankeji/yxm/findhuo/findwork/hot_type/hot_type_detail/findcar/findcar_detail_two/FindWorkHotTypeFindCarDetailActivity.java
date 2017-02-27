@@ -26,6 +26,8 @@ import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest;
 import com.squareup.picasso.Picasso;
 
+import static com.jinyuankeji.yxm.findhuo.findwork.declare_new.declare_new_detail.FindWorkNewDetailActivity.isPhoneNumberValid;
+
 /**
  * Created by  yxiaomin on 2017/1/4 0004.
  */
@@ -34,7 +36,7 @@ public class FindWorkHotTypeFindCarDetailActivity extends BaseActivity {
     private ImageView ivCall, ivHead;
     private TextView tvTitle;
     private FindWorkNewDetailBean mDetailBean;
-    private TextView tvName, tvStart, tvEnd, tvTime,tvTimeTV;
+    private TextView tvName, tvStart, tvEnd, tvTime, tvTimeTV;
     private String tel;
 
 
@@ -67,24 +69,21 @@ public class FindWorkHotTypeFindCarDetailActivity extends BaseActivity {
             }
         });
         request();
+
+
         ivCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent phoneCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + DataValue.FINDWORK_DETAIL_TEL));
-                if (ActivityCompat.checkSelfPermission(FindWorkHotTypeFindCarDetailActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    // TODO: Consider calling
-                    //    ActivityCompat#requestPermissions
-                    // here to request the missing permissions, and then overriding
-                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                    //                                          int[] grantResults)
-                    // to handle the case where the user grants the permission. See the documentation
-                    // for ActivityCompat#requestPermissions for more details.
-                    return;
-                }
-                startActivity(phoneCall);
+                if (isPhoneNumberValid(DataValue.ZHAOCHE_DETAIL_TEL)) {
+                    Intent phoneCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + DataValue.ZHAOCHE_DETAIL_TEL));
+                    startActivity(phoneCall);
 //                number="";
+                } else {
+                    Toast.makeText(FindWorkHotTypeFindCarDetailActivity.this, "拨打号码有问题", Toast.LENGTH_SHORT).show();
+                }
             }
         });
+
     }
 
     private void request() {
@@ -115,9 +114,10 @@ public class FindWorkHotTypeFindCarDetailActivity extends BaseActivity {
                                     tvTime.setText(mDetailBean.getData().getCreate_time());
                                     tvTimeTV.setText("发布时间：");
                                 } else {
-                                    tvTime.setText( mDetailBean.getData().getAppointment_time());
-                                    tvTimeTV.setText("预约时间：" );
+                                    tvTime.setText(mDetailBean.getData().getAppointment_time());
+                                    tvTimeTV.setText("预约时间：");
                                 }
+                                DataValue.ZHAOCHE_DETAIL_TEL = mDetailBean.getData().getTel();
                                 tvStart.setText(mDetailBean.getData().getAddress());
                                 tvEnd.setText(mDetailBean.getData().getAddress1());
                                 DataValue.FINDWORK_DETAIL_TEL = mDetailBean.getData().getTel();

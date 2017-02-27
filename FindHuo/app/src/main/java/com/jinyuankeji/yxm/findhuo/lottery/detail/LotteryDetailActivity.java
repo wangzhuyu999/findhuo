@@ -3,6 +3,7 @@ package com.jinyuankeji.yxm.findhuo.lottery.detail;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,8 +44,9 @@ public class LotteryDetailActivity extends BaseActivity {
     private TextView tvChat;
     private Button btnExit;
     private LotteryDetailBean mBean;
-    private TextView tvName,tvAddr,tvTel,tvHeBug,tvPrice,tvJindu,tvContent;
-private ImageView ivImg;
+    private TextView tvName, tvAddr, tvTel, tvHeBug, tvPrice, tvJindu, tvContent;
+    private ImageView ivImg;
+    private EditText etPrice;
 
     @Override
     protected int initLayout() {
@@ -66,16 +68,24 @@ private ImageView ivImg;
         tvJindu = (TextView) findViewById(R.id.tv_lottery_detail_station_price_step);
         tvContent = (TextView) findViewById(R.id.tv_lottery_detail_station_football);
         ivImg = (ImageView) findViewById(R.id.iv_lottery_detail_head);
+
+        etPrice = (EditText) findViewById(R.id.tv_lottery_detail_price_total);
     }
 
-   private String firendName;
+    private String firendName;
+
     @Override
     protected void initData() {
+        etPrice.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL);
         rvPay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LotteryDetailActivity.this, PayExtraActivity.class);
-                startActivity(intent);
+                if (etPrice.getText().toString().equals("")){
+                    Toast.makeText(LotteryDetailActivity.this, "请输入付款金额", Toast.LENGTH_SHORT).show();
+                }else {
+                requestPay();
+                }
+
             }
         });
 
@@ -96,7 +106,7 @@ private ImageView ivImg;
         btnExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EMClient.getInstance().logout (true, new EMCallBack() {
+                EMClient.getInstance().logout(true, new EMCallBack() {
                     @Override
                     public void onSuccess() {
                         Log.e("main", "下线成功了");
@@ -124,47 +134,47 @@ private ImageView ivImg;
 
 
     private void addFriend() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("添加好友");
-        final EditText newFirendName = new EditText(this);
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        newFirendName.setLayoutParams(layoutParams);
-        newFirendName.setHint("新好友用户名");
-        builder.setView(newFirendName);
-        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        });
-        builder.setPositiveButton("添加", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                new Thread() {
-                    @Override
-                    public void run() {
-                        firendName = newFirendName.getText().toString().trim();
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("添加好友");
+//        final EditText newFirendName = new EditText(this);
+//        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+//        newFirendName.setLayoutParams(layoutParams);
+//        newFirendName.setHint("新好友用户名");
+//        builder.setView(newFirendName);
+//        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//
+//            }
+//        });
+//        builder.setPositiveButton("添加", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                new Thread() {
+//                    @Override
+//                    public void run() {
+                        firendName = tel;
                         try {
                             EMClient.getInstance().contactManager().addContact(firendName, "我是你的朋友");
-                            Log.e("","添加好友成功,等待回应:" + firendName);
+                            Log.e("", "添加好友成功,等待回应:" + firendName);
 
-                            EMClient.getInstance().chatManager().saveMessage(EMMessage.createTxtSendMessage("已添加",firendName));
+                            EMClient.getInstance().chatManager().saveMessage(EMMessage.createTxtSendMessage("已添加", firendName));
                             DataValue.FINDHUO_CHAT = "添加";
                         } catch (HyphenateException e) {
                             e.printStackTrace();
                         }
 
-                        Intent intent = new Intent(LotteryDetailActivity.this,LoginActivity.class);
+                        Intent intent = new Intent(LotteryDetailActivity.this, LoginActivity.class);
                         startActivity(intent);
-                    }
-                }.start();
-            }
-        });
-        AlertDialog alertDialog = builder.create();
-        alertDialog.show();
+//                    }
+//                }.start();
+//            }
+//        });
+//        AlertDialog alertDialog = builder.create();
+//        alertDialog.show();
     }
 
-
+private  String tel;
     private void request() {
         HttpUtils httpUtils = new HttpUtils();
         RequestParams params = new RequestParams();
@@ -190,21 +200,72 @@ private ImageView ivImg;
                             mBean = gson.fromJson(json, LotteryDetailBean.class);
                             if (mBean == null) {
                                 Log.d("LotteryFragment", "实体类为null");
-                            } else if (mBean.getRes() == 10001){
+                            } else if (mBean.getRes() == 10001) {
                                 tvName.setText(mBean.getData().getLotteryname());
                                 tvAddr.setText(mBean.getData().getAddress());
                                 tvTel.setText(mBean.getData().getTel());
+                                tel = mBean.getData().getTel();
                                 tvHeBug.setText(mBean.getData().getSummary1());
                                 tvPrice.setText(mBean.getData().getSummary2());
                                 tvJindu.setText(mBean.getData().getSummary3());
                                 tvContent.setText(mBean.getData().getContent());
                                 Picasso.with(LotteryDetailActivity.this).load(mBean.getData().getImg()).into(ivImg);
 
-                            }else if (mBean.getRes() == 10002){
+                            } else if (mBean.getRes() == 10002) {
                                 Toast.makeText(LotteryDetailActivity.this, "暂时无数据", Toast.LENGTH_SHORT).show();
-                            }else if (mBean.getRes() == 10000){
+                            } else if (mBean.getRes() == 10000) {
                                 Toast.makeText(LotteryDetailActivity.this, "请求失败", Toast.LENGTH_SHORT).show();
                             }
+                        }
+                    }
+                });
+    }
+
+    private LotteryDetailPayBean mPayBean;
+    private void requestPay() {
+        HttpUtils httpUtils = new HttpUtils();
+        RequestParams params = new RequestParams();
+        Log.d("LotteryDetailActivity", DataValue.LOTTERY_MAIN_ID);
+        params.addBodyParameter("account", DataValue.DRIVER_YES_OR_NOT_TEL);
+        params.addBodyParameter("total_price", etPrice.getText().toString());
+        params.addBodyParameter("Id_lottery", mBean.getData().getId_lottery());
+
+        httpUtils.send(HttpRequest.HttpMethod.POST, URLValue.URL_NOR + URLValue.URL_LOTTERY_PAY_CREATE, params,
+                new RequestCallBack<String>() {
+                    @Override
+                    public void onFailure(HttpException arg0, String arg1) {
+                        Log.i("请求失败", "3333333333333333333333 error: " + arg1.toString());
+                    }
+
+                    @Override
+                    public void onSuccess(ResponseInfo<String> arg0) {
+                        Log.e("pay请求成功", "111111111111111111111111111111 onSuccess" + arg0.result.toString());
+                        String json = arg0.result.toString();
+                        if (json.length() == 0) {
+                        } else {
+                            Gson gson = new Gson();
+                            mPayBean = gson.fromJson(json, LotteryDetailPayBean.class);
+                            if (mPayBean == null) {
+                                Log.d("LotteryFragment", "实体类为null");
+                            } else if (mPayBean.getRes() == 10001) {
+                                DataValue.LOTTERY_ORDER_ID = mPayBean.getData()+"";
+                                Intent intent = new Intent(LotteryDetailActivity.this, PayExtraActivity.class);
+                                startActivity(intent);
+                            } else if (mPayBean.getRes() == 10002) {
+                                Toast.makeText(LotteryDetailActivity.this, "下单失败 ", Toast.LENGTH_SHORT).show();
+                            } else if (mPayBean.getRes() == 10004) {
+                                Toast.makeText(LotteryDetailActivity.this, "该手机号的账号不存在 ", Toast.LENGTH_SHORT).show();
+                            }else if (mPayBean.getRes() == 10003) {
+                                Toast.makeText(LotteryDetailActivity.this, "您的账户余额不足请去充值", Toast.LENGTH_SHORT).show();
+                            }else if (mPayBean.getRes() == 10005) {
+                                Toast.makeText(LotteryDetailActivity.this, "请设置支付密码", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(LotteryDetailActivity.this, PayExtraActivity.class);
+                                startActivity(intent);
+
+                            }else if (mPayBean.getRes() == 10000) {
+                                Toast.makeText(LotteryDetailActivity.this, "数据请求失败", Toast.LENGTH_SHORT).show();
+                            }
+
                         }
                     }
                 });

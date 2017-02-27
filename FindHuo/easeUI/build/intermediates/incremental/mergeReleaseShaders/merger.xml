@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="D:\1\FindHuo\easeUI\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\1\FindHuo\easeUI\src\release\shaders"/></dataSet></merger>
+=======
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\GitHubFingHuoZhuY\FindHuo\easeUI\src\release\shaders"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="D:\1\findhuo\FindHuo\easeUI\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\1\findhuo\FindHuo\easeUI\src\release\shaders"/></dataSet></merger>
+>>>>>>> 24de61b4f4f4436c1aa1bb144c6892f90f778682
+>>>>>>> fa2ce3f0d6f9f0912012e572d133a4f6f4e60b17

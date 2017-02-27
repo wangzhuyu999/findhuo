@@ -1,315 +1,336 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/white"
+             android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/white"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
-    <!--<ScrollView-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent">-->
+                <ImageView
+                    android:id="@+id/iv_lottery_detail_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rv_lottery_detail_title"
+                    android:background="@color/colorTitle"
+                    android:scaleType="fitXY"
+                    />
 
-    <!--<RelativeLayout-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent">-->
+                <ImageView
+                    android:id="@+id/lottery_detail_more_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"
+                    android:src="@mipmap/back_arrow_3x"/>
 
+                <ImageView
+                    android:id="@+id/iv_lottery_detail_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_lottery_detail_head"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingTop="2dp"
+                    android:src="@mipmap/name_icon3x"/>
 
-    <ImageView
-        android:id="@+id/iv_lottery_detail_head"
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/rv_lottery_detail_title"
-        android:background="@color/colorTitle"
-        android:scaleType="fitXY"
-        />
-
-    <ImageView
-        android:id="@+id/lottery_detail_more_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="20dp"
-        android:paddingTop="15dp"
-        android:src="@mipmap/back_arrow_3x"/>
-
-    <ImageView
-        android:id="@+id/iv_lottery_detail_addr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/iv_lottery_detail_head"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="15dp"
-        android:paddingTop="2dp"
-        android:src="@mipmap/name_icon3x"/>
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-       android:layout_toRightOf="@id/iv_lottery_detail_addr"
-        android:layout_alignTop="@+id/iv_lottery_detail_addr"
-        android:layout_marginLeft="15dp"
-        android:text="彩票站名称"
-        android:textColor="@color/colorLotteryDetail"/>
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_lottery_detail_addr"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@id/iv_lottery_detail_addr"
+                    android:text="彩票站名称"
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"/>
 
 
-    <ImageView
-        android:id="@+id/tv_lottery_detail_station_addr_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_lottery_detail_station_name"
-        android:layout_marginLeft="20dp"
-        android:paddingTop="2dp"
-       android:layout_alignRight="@id/iv_lottery_detail_addr"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="2dp"
-        android:src="@mipmap/add_icon3x"
-        />
+                <ImageView
+                    android:id="@+id/tv_lottery_detail_station_addr_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/iv_lottery_detail_addr"
+                    android:layout_below="@id/tv_lottery_detail_station_name"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="2dp"
+                    android:src="@mipmap/add_icon3x"
+                    />
 
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_addr"
-        android:layout_width="wrap_content"
-        android:textSize="15sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_lottery_detail_station_name"
-    android:layout_alignLeft="@id/tv_lottery_detail_station_name"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/tv_lottery_detail_station_addr_tv"
-        android:text="地址名"
-        android:textColor="@color/colorLotteryDetail"
-        />
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_lottery_detail_station_name"
+                    android:layout_below="@id/tv_lottery_detail_station_name"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_lottery_detail_station_addr_tv"
+                    android:text="地址名"
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"
+                    />
 
-    <ImageView
-        android:id="@+id/tv_lottery_detail_station_tel_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_lottery_detail_station_addr"
-        android:layout_marginLeft="20dp"
-        android:paddingTop="2dp"
-        android:layout_alignRight="@id/iv_lottery_detail_addr"
-        android:layout_marginTop="12dp"
-        android:src="@mipmap/tel_icon3x"
-        />
+                <ImageView
+                    android:id="@+id/tv_lottery_detail_station_tel_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/iv_lottery_detail_addr"
+                    android:layout_below="@id/tv_lottery_detail_station_addr"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:paddingTop="2dp"
+                    android:src="@mipmap/tel_icon3x"
+                    />
 
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_tel"
-        android:layout_width="wrap_content"
-        android:textSize="15sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_lottery_detail_station_addr"
-       android:layout_alignLeft="@id/tv_lottery_detail_station_name"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/tv_lottery_detail_station_tel_tv"
-        android:text="电话号码"
-        android:textColor="@color/colorLotteryDetail"
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_lottery_detail_station_name"
+                    android:layout_below="@id/tv_lottery_detail_station_addr"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_lottery_detail_station_tel_tv"
+                    android:text="电话号码"
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"
 
-        />
-
-
-    <TextView
-        android:id="@+id/iv_lottery_detail_chat_icon"
-        android:layout_width="70dp"
-        android:layout_height="30dp"
-        android:layout_below="@id/tv_lottery_detail_station_tel"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:background="@mipmap/btn_talk3x"
-        android:paddingLeft="16dp"
-        android:paddingTop="5dp"
-        android:text="聊天"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"/>
+                    />
 
 
-    <LinearLayout
-        android:id="@+id/ll_lottery_detail_station_line"
-        android:layout_width="match_parent"
-        android:layout_height="13dp"
-        android:layout_below="@id/iv_lottery_detail_chat_icon"
-        android:layout_marginTop="10dp"
-        android:background="#e1e1e1"
-        android:orientation="horizontal"/>
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_priceall_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ll_lottery_detail_station_line"
-        android:layout_marginLeft="20dp"
-        android:textSize="15sp"
-        android:layout_marginTop="10dp"
-        android:text="合买方案： "
-        android:textColor="@color/colorLotteryDetail"
-        />
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_priceall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:layout_below="@id/ll_lottery_detail_station_line"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/tv_lottery_detail_station_priceall_tv"
-        android:background="@null"
-        android:text="价格输入"
-
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ll_lottery_detail_station_line"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/tv_lottery_detail_station_priceall"
-        android:text="元"
-        android:textColor="@color/colorLotteryDetail"/>
-    <!--<TextView-->
-    <!--android:id="@+id/tv_lottery_detail_station_special_clomun"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_alignLeft="@id/tv_lottery_detail_station_price_tv"-->
-    <!--android:layout_below="@id/tv_lottery_detail_station_price_tv"-->
-    <!--android:layout_marginTop="5dp"-->
-    <!--android:text="专栏"-->
-    <!--/>-->
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_price_oneperson_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_lottery_detail_station_priceall"
-        android:layout_marginLeft="20dp"
-        android:textSize="15sp"
-        android:layout_marginTop="10dp"
-        android:text="人均价格："
-        android:textColor="@color/colorLotteryDetail"/>
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_price_oneperson"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:layout_below="@id/tv_lottery_detail_station_priceall"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/tv_lottery_detail_station_price_oneperson_tv"
-        android:text="1000"
-        android:textColor="@color/colorLotteryDetail"/>
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_price_step_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_lottery_detail_station_price_oneperson"
-        android:layout_marginLeft="20dp"
-        android:textSize="15sp"
-        android:layout_marginTop="10dp"
-        android:text="进度："
-        android:textColor="@color/colorLotteryDetail"/>
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_price_step"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1000"
-        android:textSize="15sp"
-        android:textColor="@color/colorLotteryDetail"
-        android:layout_alignBaseline="@+id/tv_lottery_detail_station_price_step_tv"
-        android:layout_alignBottom="@+id/tv_lottery_detail_station_price_step_tv"
-        android:layout_toEndOf="@+id/tv_lottery_detail_station_price_step_tv"/>
-
-    <LinearLayout
-        android:id="@+id/ll_lottery_detail_station_line_two"
-        android:layout_width="match_parent"
-        android:layout_height="13dp"
-        android:layout_below="@id/tv_lottery_detail_station_price_step"
-        android:layout_marginTop="10dp"
-        android:background="#e1e1e1"
-        android:orientation="horizontal"/>
-
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_lottery_type"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:layout_alignLeft="@id/tv_lottery_detail_station_addr_tv"
-        android:layout_below="@id/ll_lottery_detail_station_line_two"
-        android:layout_marginTop="10dp"
-        android:text="出售彩种: "
-        android:textColor="@color/colorLotteryDetail"
+                <TextView
+                    android:id="@+id/iv_lottery_detail_chat_icon"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/tv_lottery_detail_station_tel"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/btn_talk3x"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="5dp"
+                    android:text="聊天"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"/>
 
 
-        />
+                <LinearLayout
+                    android:id="@+id/ll_lottery_detail_station_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp"
+                    android:layout_below="@id/iv_lottery_detail_chat_icon"
+                    android:layout_marginTop="10dp"
+                    android:background="#e1e1e1"
+                    android:orientation="horizontal"/>
 
-    <TextView
-        android:id="@+id/tv_lottery_detail_station_football"
-        android:layout_width="wrap_content"
-        android:textSize="15sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ll_lottery_detail_station_line_two"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/tv_lottery_detail_station_lottery_type"
-        android:text="竞猜足球"
-        android:textColor="@color/colorLotteryDetail"/>
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_priceall_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_lottery_detail_station_line"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="合买方案： "
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"
+                    />
 
-    <!--<TextView-->
-    <!--android:id="@+id/tv_lottery_detail_station_basketball"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_below="@id/tv_lottery_detail_station_type"-->
-    <!--android:layout_marginLeft="20dp"-->
-    <!--android:layout_marginTop="5dp"-->
-    <!--android:layout_toRightOf="@id/tv_lottery_detail_station_football"-->
-    <!--android:text="竞猜篮球"/>-->
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_priceall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_lottery_detail_station_line"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_lottery_detail_station_priceall_tv"
+                    android:background="@null"
+                    android:text="价格输入"
+                    android:textSize="15sp"
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
+                    />
 
-        android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_lottery_detail_station_line"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_lottery_detail_station_priceall"
+                    android:text="元"
+                    android:textColor="@color/colorLotteryDetail"/>
+                <!--<TextView-->
+                <!--android:id="@+id/tv_lottery_detail_station_special_clomun"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignLeft="@id/tv_lottery_detail_station_price_tv"-->
+                <!--android:layout_below="@id/tv_lottery_detail_station_price_tv"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="专栏"-->
+                <!--/>-->
 
-        <include layout="@layout/include_pay_bottom"/>
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_price_oneperson_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lottery_detail_station_priceall"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="exit"
-        android:id="@+id/exit"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"/>
+                    android:text="人均价格："
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_price_oneperson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lottery_detail_station_priceall"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_lottery_detail_station_price_oneperson_tv"
+                    android:text="."
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_price_step_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lottery_detail_station_price_oneperson"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="进度："
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_price_step"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_lottery_detail_station_price_step_tv"
+                    android:layout_alignBottom="@+id/tv_lottery_detail_station_price_step_tv"
+                    android:layout_marginRight="20dp"
+                    android:layout_toEndOf="@+id/tv_lottery_detail_station_price_step_tv"
+                    android:text="."
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_lottery_detail_station_line_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp"
+                    android:layout_below="@id/tv_lottery_detail_station_price_step"
+                    android:layout_marginTop="10dp"
+                    android:background="#e1e1e1"
+                    android:orientation="horizontal"/>
+
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_lottery_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_lottery_detail_station_addr_tv"
+                    android:layout_below="@id/ll_lottery_detail_station_line_two"
+                    android:layout_marginTop="10dp"
+                    android:text="出售彩种: "
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"
 
 
-    <!--<RelativeLayout-->
-    <!--android:id="@+id/rv_lottery_detail_title"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:background="#f88"-->
-    <!--android:layout_alignParentTop="true"-->
-    <!--android:layout_alignParentStart="true">-->
+                    />
 
-    <!--<TextView-->
-    <!--android:id="@+id/lottery_detail_more_back"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_centerVertical="true"-->
-    <!--android:layout_marginLeft="15dp"-->
-    <!--android:text="返回"/>-->
 
-    <!--<TextView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_centerInParent="true"-->
-    <!--android:padding="5dp"-->
-    <!--android:text="详情"-->
-    <!--android:textSize="25sp"/>-->
-    <!--</RelativeLayout>-->
+                <TextView
+                    android:id="@+id/tv_lottery_detail_station_football"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lottery_detail_station_lottery_type"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="."
+                    android:textColor="@color/colorLotteryDetail"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+        </ScrollView>
+        <!--<TextView-->
+        <!--android:id="@+id/tv_lottery_detail_station_basketball"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/tv_lottery_detail_station_type"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_toRightOf="@id/tv_lottery_detail_station_football"-->
+        <!--android:text="竞猜篮球"/>-->
 
-    <!--</RelativeLayout>-->
-    <!--</ScrollView>-->
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+
+            android:orientation="vertical">
+
+            <include layout="@layout/include_pay_bottom"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="exit"/>
+
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/rv_lottery_detail_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#f88"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentStart="true">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/lottery_detail_more_back"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:text="返回"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="详情"-->
+        <!--android:textSize="25sp"/>-->
+        <!--</RelativeLayout>-->
+
+        <!--</RelativeLayout>-->
+        <!--</ScrollView>-->
+    </RelativeLayout>
+</FrameLayout>

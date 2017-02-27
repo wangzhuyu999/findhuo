@@ -80,16 +80,16 @@
             android:layout_marginStart="20dp" />
 
         <EditText
-            android:text=""
+            android:text="某某"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/fontSize"
             android:textSize="16sp"
             android:layout_marginEnd="20dp"
-            android:background="@null"
-            android:id="@+id/name"
+            android:id="@+id/textView3"
             android:layout_centerVertical="true"
-            android:layout_alignParentEnd="true"/>
+            android:layout_alignParentEnd="true"
+            android:background="@null"/>
     </RelativeLayout>
 
     <View
@@ -132,17 +132,8 @@
         android:layout_height="1dp"
         android:background="@color/line"></View>
 
-    <Button
-        android:text="保存"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@color/green"
-        android:id="@+id/button5" />
+
+
 
 
 </LinearLayout>

@@ -26,6 +26,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.android.support:design:25.1.0'
     compile files('libs/Amap_2DMap_V2.9.3_20161206.jar')
     compile files('libs/AMap_Location_V3.2.0_20161206.jar')
     compile project(':easeUI')
@@ -35,8 +36,6 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.3.2'
     //    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
     compile 'com.squareup.okhttp3:okhttp:3.5.0'
-    compile files('libs/universal-image-loader-1.9.2-with-sources.jar')
-    compile 'com.android.support:design:25.1.0'
-    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
-    compile 'com.bigkoo:pickerview:1.0.3'
+    compile 'com.github.chrisbanes.actionbarpulltorefresh:library:0.9.9'
+    compile files('libs/wechat-sdk-android-with-mta-1.0.2.jar')
 }

@@ -35,8 +35,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/safe_relativelayout">
+        android:layout_height="50dp">
 
         <TextView
             android:text="安全设置"
@@ -66,8 +65,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/relativeLayout2">
+        android:layout_height="50dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -97,8 +95,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/about_our">
+        android:layout_height="50dp">
 
         <ImageView
             android:layout_width="wrap_content"

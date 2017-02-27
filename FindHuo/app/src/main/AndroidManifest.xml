@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jinyuankeji.yxm.findhuo">
+          package="com.jinyuankeji.yxm.findhuo">
 
     <uses-permission android:name="android.permission.CALL_PHONE"/>
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
 
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.GET_TASKS" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application
         android:name=".base.base_chat.MyApplication"
@@ -62,16 +62,18 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="3540364eb66be0205a24d39645d21897" />
+            android:value="3540364eb66be0205a24d39645d21897"/>
+
         <activity android:name=".WelcomeActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
         <activity android:name=".lottery.more.MoreActivity"/>
-        <activity android:name=".lottery.detail.LotteryDetailActivity"/>
+        <activity android:name=".lottery.detail.LotteryDetailActivity"
+                  android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity android:name=".lottery.detail.PayExtraActivity"/>
         <activity android:name=".lottery.detail.PaySureActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.hot_type_detail_one.FindWorkHotTypeDetailActivity"/>
@@ -79,76 +81,70 @@
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_one.FindWorkHotTypeTaxiDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_detail_two.FindWorkHotTypeFindCarDetailActivity"/>
         <activity android:name=".findwork.hot_type.hot_type_detail.psychological.FindWorkHotTypePsychologicalDetailActivity"/>
-<activity android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_one.SearchFindCarActivity"
-          android:windowSoftInputMode="stateHidden|adjustResize"
-    />
+        <activity
+            android:name=".findwork.hot_type.hot_type_detail.findcar.findcar_one.SearchFindCarActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            />
         <activity android:name=".MainActivity"/>
 
 
-        <activity android:name=".declare.FindCarActivity"
+        <activity android:name=".declare.FindCarActivity"></activity>
+        <activity android:name=".declare.FindWorkActivity"></activity>
+        <activity
+            android:name=".declare.WorkingActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"></activity>
-        <activity android:name=".declare.FindWorkActivity"
+        <activity
+            android:name=".declare.PsychologicalDivisionActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"></activity>
-        <activity android:name=".declare.WorkingActivity"
-                  android:windowSoftInputMode="stateHidden|adjustResize"></activity>
-        <activity android:name=".declare.PsychologicalDivisionActivity"
-                  android:windowSoftInputMode="stateHidden|adjustResize"></activity>
         <activity android:name=".my.NewsActivity"></activity>
         <activity android:name=".my.SetingActivity"></activity>
         <activity android:name=".my.PersonalActivity"></activity>
         <activity android:name=".my.MoneyActivity"></activity>
         <activity android:name=".my.NewsRecordActivity"></activity>
+        <activity android:name=".my.PsychologicalActivity"></activity>
         <activity android:name=".my.ReleaseActivity"></activity>
         <activity android:name=".my.BuyLotteryActivity"></activity>
         <activity android:name=".PasswordActivity"></activity>
-        <activity android:name=".my.RechargeActivity"></activity>
-        <activity android:name=".my.seting.AboutOurActivtiy"></activity>
-        <activity android:name=".my.seting.RemindActivity"></activity>
-        <activity android:name=".my.seting.SafeActivity"></activity>
-        <activity android:name=".my.seting.SafeActivity1"></activity>
-        <activity android:name=".my.seting.SafeActivity2"></activity>
-        <activity android:name=".my.seting.BuyLotteryFragmentEDetails"></activity>
-        <activity android:name=".my.DriverActivity"
-            android:windowSoftInputMode="stateHidden|adjustResize"></activity>
 
         <service android:name="com.amap.api.location.APSService"/>
 
-<activity android:name=".LoginActivity"/>
+        <activity android:name=".LoginActivity"/>
 
 
         <meta-data
             android:name="EASEMOB_APPKEY"
-            android:value="1114161229178614#zhaohuoerba" />
+            android:value="1114161229178614#zhaohuoerba"/>
 
         <service
             android:name="com.hyphenate.chat.EMChatService"
-            android:exported="true" />
+            android:exported="true"/>
 
         <receiver android:name="com.hyphenate.chat.EMMonitorReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
 
-                <data android:scheme="package" />
+                <data android:scheme="package"/>
             </intent-filter>
 
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
             </intent-filter>
         </receiver>
 
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
-            android:process=":remote" />
+            android:process=":remote"/>
 
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="XdNnLD4Q9MYPheUoDGXwLL5u" />
+            android:value="XdNnLD4Q9MYPheUoDGXwLL5u"/>
 
 
-        <activity android:name=".lottery.ui.MainCActivity"
-                  android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".lottery.ui.MainCActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity
             android:name=".lottery.ui.ChatActivity"
             android:configChanges="keyboard|orientation|screenSize"
@@ -160,25 +156,21 @@
         <activity
             android:name="com.hyphenate.easeui.ui.EaseBaiduMapActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" />
+            android:theme="@style/horizontal_slide"/>
         <activity
             android:name="com.hyphenate.easeui.ui.EaseShowBigImageActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" />
+            android:theme="@style/horizontal_slide"/>
         <activity
             android:name="com.hyphenate.easeui.ui.EaseShowNormalFileActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" />
+            android:theme="@style/horizontal_slide"/>
         <activity
             android:name="com.hyphenate.easeui.ui.EaseShowVideoActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide" />
+            android:theme="@style/horizontal_slide"/>
 
-        <activity android:name=".RegistActivity"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+        <activity android:name=".RegistActivity"/>
     </application>
 
 </manifest>

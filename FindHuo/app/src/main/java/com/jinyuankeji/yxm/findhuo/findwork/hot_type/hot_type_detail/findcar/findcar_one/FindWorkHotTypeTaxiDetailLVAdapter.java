@@ -11,6 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.jinyuankeji.yxm.findhuo.R;
+import com.jinyuankeji.yxm.findhuo.findwork.hot_type.hot_type_detail.hot_type_detail_one.FinfWorkHotTypeDetailBean;
 import com.jinyuankeji.yxm.findhuo.lottery.LotteryViewPagerBean;
 import com.jinyuankeji.yxm.findhuo.tools.DataValue;
 import com.squareup.picasso.Picasso;
@@ -37,6 +38,11 @@ public class FindWorkHotTypeTaxiDetailLVAdapter extends BaseAdapter {
 
     public void setStationBean(FindWorkHotTypeTaxiDetailLVBean datas) {
         this.datas = datas;
+        notifyDataSetChanged();
+    }
+
+    public void addData(FindWorkHotTypeTaxiDetailLVBean hotspotBean) {
+        datas.getData().addAll(hotspotBean.getData());
         notifyDataSetChanged();
     }
 

@@ -22,7 +22,8 @@
         android:layout_alignTop="@id/iv_lottery_rv_item_icon"
         android:layout_marginTop="7dp"
         android:layout_toRightOf="@id/iv_lottery_rv_item_icon"
-        android:text="站名"
+        android:text="."
+        android:layout_marginRight="20dp"
         android:textSize="16sp"/>
 
     <TextView
@@ -32,7 +33,8 @@
         android:layout_below="@id/tv_lottery_station_name"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/iv_lottery_rv_item_icon"
-        android:text="地址"
+        android:text="."
+        android:layout_marginRight="20dp"
         android:textSize="16sp"/>
 
     <LinearLayout

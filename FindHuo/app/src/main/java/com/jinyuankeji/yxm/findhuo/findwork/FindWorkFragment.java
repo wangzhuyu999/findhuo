@@ -47,7 +47,6 @@ import java.util.Map;
  */
 
 public class FindWorkFragment extends BaseFragment {
-    //    private Spinner spinner;
     private List<String> data_list;
     private ArrayAdapter<String> arr_adapter;
 
@@ -67,21 +66,16 @@ public class FindWorkFragment extends BaseFragment {
     private FindWorkDeclareNewBean mNewBean;
 
     private SVL mLv;
-
     private FindWorkHotAdapter mHotAdapter;
-
     private SVG mGv;
-
     private int img[] = {R.mipmap.mechanic3x, R.mipmap.salesman3x, R.mipmap.employee3x, R.mipmap.teacher3x, R.mipmap.translator3x,
             R.mipmap.deliveryman3x, R.mipmap.taxi3x, R.mipmap.others3x,};
     private String str[] = {"技工", "促销导购", "钟点工", "家教", "翻译", "送货", "找车", "其他"};
     private String strFind[] = {"技工", "促销导购", "钟点工", "家教", "翻译", "送货", "心理咨询", "其他"};
     private int imgFind[] = {R.mipmap.mechanic3x, R.mipmap.salesman3x, R.mipmap.employee3x, R.mipmap.teacher3x, R.mipmap.translator3x,
             R.mipmap.deliveryman3x, R.mipmap.psychological3x, R.mipmap.others3x,};
-
     private TextView tvFindWork, tvDoWork;
     private TextView tvLocationFind;
-
 
     @Override
     protected int initLayout() {
@@ -90,7 +84,6 @@ public class FindWorkFragment extends BaseFragment {
 
     @Override
     protected void initView() {
-//        spinner = (Spinner) getView().findViewById(R.id.spinner_findwork);
         viewPagerBanner = (ViewPager) getView().findViewById(R.id.view_pager_findworke);
         llTip = (LinearLayout) getView().findViewById(R.id.ll_findworke);
         scrollView = (ScrollView) getView().findViewById(R.id.sv_findworke);
@@ -105,7 +98,6 @@ public class FindWorkFragment extends BaseFragment {
     @Override
     protected void initData() {
         scrollView.scrollTo(0, 0);
-
         mNewBean = new FindWorkDeclareNewBean();
         myAdapter = new FindWorkeViewPagerAdapter(getActivity());
         images = new ArrayList<>();
@@ -145,6 +137,7 @@ public class FindWorkFragment extends BaseFragment {
                     DataValue.FINDWORK_TYPE_TV_OR = "心理咨询";
                     startActivity(intent);
                 } else {
+                    DataValue.FINDWORK_TYPE_TV_OR = DataValue.FINDWORK_TYPE_TV;
                     Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
                     startActivity(intent);
                 }
@@ -201,6 +194,7 @@ public class FindWorkFragment extends BaseFragment {
                                 DataValue.FINDWORK_TYPE_TV_OR = "找车";
                                 startActivity(intent);
                             } else {
+                                DataValue.FINDWORK_TYPE_TV_OR = DataValue.FINDWORK_TYPE_TV;
                                 Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
                                 startActivity(intent);
                             }
@@ -253,6 +247,7 @@ public class FindWorkFragment extends BaseFragment {
                                 DataValue.FINDWORK_TYPE_TV_OR = "心理咨询";
                                 startActivity(intent);
                             } else {
+                                DataValue.FINDWORK_TYPE_TV_OR = DataValue.FINDWORK_TYPE_TV;
                                 Intent intent = new Intent(getActivity(), FindWorkHotTypeDetailActivity.class);
                                 startActivity(intent);
                             }

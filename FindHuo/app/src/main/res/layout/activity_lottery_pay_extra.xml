@@ -68,6 +68,17 @@
             android:textColor="#757575"
             android:textSize="16sp"/>
 
+
+        <!--<TextView-->
+            <!--android:id="@+id/tc"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="7dp"-->
+            <!--android:layout_toRightOf="@id/tcv"-->
+            <!--android:text="："-->
+            <!--android:textColor="#757575"-->
+            <!--android:textSize="16sp"/>-->
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

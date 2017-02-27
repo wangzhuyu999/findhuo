@@ -48,7 +48,7 @@
         android:layout_below="@id/iv_findcar_detail_head"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="孙先生"
+        android:text="."
         android:textColor="@color/colorLotteryDetail"
         android:textSize="15sp"/>
 
@@ -78,8 +78,9 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/tv_findcar_detail_declare_time_tv"
         android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
         android:layout_toRightOf="@id/tv_findcar_detail_declare_time_tv"
-        android:text="12月"
+        android:text="."
         android:textColor="@color/colorGray"
         android:textSize="15sp"/>
 
@@ -101,8 +102,9 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/tv_findcar_detail_start_tv"
         android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
         android:layout_toRightOf="@id/tv_findcar_detail_start_tv"
-        android:text="大东基础上豆腐"
+        android:text="."
         android:textSize="15sp"/>
 
     <TextView
@@ -111,6 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/tv_findcar_detail_start_tv"
         android:layout_below="@id/tv_findcar_detail_start"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="15dp"
         android:text="终点:"
         android:textColor="@color/colorLotteryDetail"
@@ -124,7 +127,7 @@
         android:layout_alignTop="@id/tv_findcar_detail_end_tv"
         android:layout_marginLeft="5dp"
         android:layout_toRightOf="@id/tv_findcar_detail_end_tv"
-        android:text="打动器迪欧放和搜到"
+        android:text="."
         android:textColor="@color/colorGray"
         android:textSize="15sp"
         />
